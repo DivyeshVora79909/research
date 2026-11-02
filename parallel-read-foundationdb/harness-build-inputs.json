@@ -1,0 +1,35 @@
+[
+  {
+    "source": "/tmp/rebase-parallel-read-study/main.rs",
+    "source_sha256": "315d9a2647738481e2873f567a3da9c8bff0ba0466107a6f272924ad0a9d2507",
+    "args": [
+      "--edition",
+      "2024",
+      "-O",
+      "-C",
+      "debuginfo=0",
+      "-C",
+      "strip=debuginfo",
+      "/tmp/rebase-parallel-read-study/main.rs",
+      "-L",
+      "dependency=/workspace/ReBase/rebase-next/target/verification-build/release/deps",
+      "-L",
+      "native=/workspace/ReBase/rebase-next/target/g7-environment/lib",
+      "--extern",
+      "rebase_semantic_proof=/tmp/rebase-linked-read-study/librebase_semantic_proof_current.rlib",
+      "--extern",
+      "uuid=/workspace/ReBase/rebase-next/target/verification-build/release/deps/libuuid-54839a8fa2b62a8c.rlib",
+      "--extern",
+      "serde_json=/workspace/ReBase/rebase-next/target/verification-build/release/deps/libserde_json-c4311f9e28fa7026.rlib",
+      "--extern",
+      "sha2=/workspace/ReBase/rebase-next/target/verification-build/release/deps/libsha2-588b622ea56e7630.rlib",
+      "--extern",
+      "foundationdb=/workspace/ReBase/rebase-next/target/verification-build/release/deps/libfoundationdb-15ab8285f6673f88.rlib",
+      "--extern",
+      "futures=/workspace/ReBase/rebase-next/target/verification-build/release/deps/libfutures-972f3eb9f1e8a0a3.rlib",
+      "-o",
+      "/tmp/rebase-parallel-read-study/bench"
+    ],
+    "binary_sha256": "2822e976c2530a19a5aac6bd6ff6a788153a9b90b662b143ab3f5497ad633291"
+  }
+]

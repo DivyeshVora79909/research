@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "version": "3.3.5",
+    "backend": "in-memory",
+    "authentication": "Bearer root JWT",
+    "N": 10000,
+    "root": 4999,
+    "first": "linknode:0",
+    "notes": [
+      "Each fold iteration reads the persisted cursor node, then its referenced row; the timed caller supplies only first and length.",
+      "The node fixture also has balanced tree left/right/parent pointers and subtree count, but this benchmark traverses persisted next links only.",
+      "Accumulating output with array::append may copy prior output and introduce quadratic materialization cost; this is not an O(log n) index benchmark.",
+      "Known-ID bulk SELECT is an explicit control, not discovered traversal."
+    ]
+  },
+  "cases": [
+    {
+      "name": "chain",
+      "k": 50,
+      "correct": true,
+      "endToEndMs": {
+        "n": 5,
+        "min": 2.7447899999999663,
+        "median": 3.1879180000000815,
+        "max": 4.214869000000135
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 1.769247,
+        "median": 1.961862,
+        "max": 2.684577
+      }
+    },
+    {
+      "name": "known_ids_bulk",
+      "k": 50,
+      "correct": true,
+      "endToEndMs": {
+        "n": 5,
+        "min": 1.2008579999999256,
+        "median": 1.2853370000000268,
+        "max": 1.6002690000000257
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 0.17673,
+        "median": 0.202259,
+        "max": 0.22772900000000001
+      }
+    },
+    {
+      "name": "chain",
+      "k": 100,
+      "correct": true,
+      "endToEndMs": {
+        "n": 5,
+        "min": 5.254159999999956,
+        "median": 5.342324999999846,
+        "max": 5.572496000000001
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 3.96748,
+        "median": 3.995123,
+        "max": 4.358869
+      }
+    },
+    {
+      "name": "known_ids_bulk",
+      "k": 100,
+      "correct": true,
+      "endToEndMs": {
+        "n": 5,
+        "min": 1.4926439999999275,
+        "median": 1.682444999999916,
+        "max": 2.055605000000014
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 0.30794099999999996,
+        "median": 0.335824,
+        "max": 0.37156900000000004
+      }
+    },
+    {
+      "name": "chain",
+      "k": 1000,
+      "correct": true,
+      "endToEndMs": {
+        "n": 5,
+        "min": 163.31390499999998,
+        "median": 167.4743410000001,
+        "max": 168.34844799999996
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 159.279828,
+        "median": 163.250728,
+        "max": 164.497346
+      }
+    },
+    {
+      "name": "known_ids_bulk",
+      "k": 1000,
+      "correct": true,
+      "endToEndMs": {
+        "n": 5,
+        "min": 6.89401799999996,
+        "median": 7.554208999999901,
+        "max": 7.9593479999998635
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 3.320841,
+        "median": 4.077218,
+        "max": 4.317887
+      }
+    }
+  ]
+}

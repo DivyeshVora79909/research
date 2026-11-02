@@ -1,0 +1,5 @@
+use std::hint::black_box;
+use std::time::Instant;
+#[derive(Clone, Copy, Debug)]struct Summary {sum:i64,min_prefix:i64,count:i64}
+#[inline]fn combine(a:Summary,v:i64)->Summary {let sum=a.sum.checked_add(v).unwrap();Summary{sum,min_prefix:a.min_prefix.min(sum),count:a.count.checked_add(1).unwrap()}}
+fn main(){for n in [100usize,1000,10000]{let values:Vec<i64>=(0..n).map(|i|[-3,5,-2,1][i%4]).collect();let iterations=10000000/n;let mut samples=Vec::new();for sample in 0..18{let start=Instant::now();for _ in 0..iterations{let mut a=Summary{sum:0,min_prefix:0,count:0};for &v in black_box(&values){a=combine(a,v);}let a=black_box(a);assert_eq!((a.sum,a.min_prefix,a.count),(n as i64/4,-3,n as i64));}let elapsed=start.elapsed().as_secs_f64()*1000.0/iterations as f64;if sample>=3{samples.push(elapsed);}}samples.sort_by(f64::total_cmp);println!("{{\"n\":{},\"iterationsPerSample\":{},\"samples\":15,\"medianMs\":{},\"minMs\":{},\"maxMs\":{},\"correct\":true}}",n,iterations,samples[7],samples[0],samples[14]);}}

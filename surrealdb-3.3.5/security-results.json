@@ -1,0 +1,743 @@
+{
+  "version": "3.3.5",
+  "db": "security",
+  "setup": "\nDEFINE TABLE person SCHEMALESS PERMISSIONS FULL;\nCREATE person:alice SET name='alice'; CREATE person:bob SET name='bob';\nDEFINE ACCESS fixture ON DATABASE TYPE RECORD SIGNIN (SELECT * FROM person WHERE name=$name);\nDEFINE TABLE secret SCHEMALESS PERMISSIONS NONE;\nCREATE secret:alice SET owner=person:alice, text='alice secret';\nCREATE secret:bob SET owner=person:bob, text='bob secret';\nDEFINE FUNCTION fn::read_secret() { RETURN SELECT * FROM secret; } PERMISSIONS WHERE $auth != NONE;\nDEFINE FUNCTION fn::helper($id: record<secret>) { RETURN SELECT * FROM $id WHERE owner=$auth.id; } PERMISSIONS NONE;\nDEFINE API '/notes/:id' FOR get PERMISSIONS WHERE $auth != NONE THEN { RETURN {status:200, body: encoding::json::encode(fn::helper(type::record('secret',$request.params.id))), context: {}}; };\nDEFINE FUNCTION fn::explode() { CREATE rollback:fn_one; CREATE rollback:fn_two; THROW 'expected rollback'; } PERMISSIONS FULL;\nDEFINE API '/explode' FOR post PERMISSIONS WHERE $auth != NONE THEN { CREATE rollback:api_one; CREATE rollback:api_two; THROW 'expected rollback'; };\nDEFINE TABLE rollback SCHEMALESS PERMISSIONS FULL;\n",
+  "results": [
+    {
+      "name": "fixture_setup",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": null,
+            "status": "OK",
+            "time": "248.043\u00b5s",
+            "type": null
+          },
+          {
+            "result": [
+              {
+                "id": "person:alice",
+                "name": "alice"
+              }
+            ],
+            "status": "OK",
+            "time": "137.818\u00b5s",
+            "type": null
+          },
+          {
+            "result": [
+              {
+                "id": "person:bob",
+                "name": "bob"
+              }
+            ],
+            "status": "OK",
+            "time": "75.804\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "77.576\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "70.275\u00b5s",
+            "type": null
+          },
+          {
+            "result": [
+              {
+                "id": "secret:alice",
+                "owner": "person:alice",
+                "text": "alice secret"
+              }
+            ],
+            "status": "OK",
+            "time": "55.804\u00b5s",
+            "type": null
+          },
+          {
+            "result": [
+              {
+                "id": "secret:bob",
+                "owner": "person:bob",
+                "text": "bob secret"
+              }
+            ],
+            "status": "OK",
+            "time": "59.991\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "72.9\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "85.048\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "68.533\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "25.439\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "19.84\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "105.249\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_direct_select",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "119.18\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_direct_create_denied",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "61.843\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_udf_reads_none",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "133.872\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_helper_direct_denied",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "kind": "Internal",
+            "result": "You don't have permission to run the fn::helper function",
+            "status": "ERR",
+            "time": "59.039\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "bob_direct_select",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "78.969\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "bob_direct_create_denied",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "40.38\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "bob_udf_reads_none",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "88.894\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "bob_helper_direct_denied",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "kind": "Internal",
+            "result": "You don't have permission to run the fn::helper function",
+            "status": "ERR",
+            "time": "44.677\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "anonymous_direct_select",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": {
+          "code": 403,
+          "details": "Forbidden",
+          "description": "Not allowed to do this.",
+          "information": "Anonymous access not allowed: Not enough permissions to perform this action"
+        }
+      }
+    },
+    {
+      "name": "anonymous_direct_create_denied",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": {
+          "code": 403,
+          "details": "Forbidden",
+          "description": "Not allowed to do this.",
+          "information": "Anonymous access not allowed: Not enough permissions to perform this action"
+        }
+      }
+    },
+    {
+      "name": "anonymous_udf_reads_none",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": {
+          "code": 403,
+          "details": "Forbidden",
+          "description": "Not allowed to do this.",
+          "information": "Anonymous access not allowed: Not enough permissions to perform this action"
+        }
+      }
+    },
+    {
+      "name": "anonymous_helper_direct_denied",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": {
+          "code": 403,
+          "details": "Forbidden",
+          "description": "Not allowed to do this.",
+          "information": "Anonymous access not allowed: Not enough permissions to perform this action"
+        }
+      }
+    },
+    {
+      "name": "alice_api_invoke_alice",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": {
+              "body": "[{\"id\":\"secret:alice\",\"owner\":\"person:alice\",\"text\":\"alice secret\"}]",
+              "headers": {
+                "x-surreal-request-id": "b262cf88-d739-4e55-97fb-f37373e81655"
+              },
+              "request_id": "b262cf88-d739-4e55-97fb-f37373e81655",
+              "status": 200
+            },
+            "status": "OK",
+            "time": "354.704\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_http_api_alice",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "id": "secret:alice",
+            "owner": "person:alice",
+            "text": "alice secret"
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_api_invoke_bob",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": {
+              "body": "[]",
+              "headers": {
+                "x-surreal-request-id": "6178c0e6-691d-4cec-a30f-2c56f44fe1c6"
+              },
+              "request_id": "6178c0e6-691d-4cec-a30f-2c56f44fe1c6",
+              "status": 200
+            },
+            "status": "OK",
+            "time": "164.647\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "alice_http_api_bob",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": []
+      }
+    },
+    {
+      "name": "bob_api_invoke_alice",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": {
+              "body": "[]",
+              "headers": {
+                "x-surreal-request-id": "c8470e85-2537-45d7-83ff-8912f8856f91"
+              },
+              "request_id": "c8470e85-2537-45d7-83ff-8912f8856f91",
+              "status": 200
+            },
+            "status": "OK",
+            "time": "158.698\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "bob_http_api_alice",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": []
+      }
+    },
+    {
+      "name": "bob_api_invoke_bob",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": {
+              "body": "[{\"id\":\"secret:bob\",\"owner\":\"person:bob\",\"text\":\"bob secret\"}]",
+              "headers": {
+                "x-surreal-request-id": "dc1187d3-8253-452a-afa2-7771cfe7ce9b"
+              },
+              "request_id": "dc1187d3-8253-452a-afa2-7771cfe7ce9b",
+              "status": 200
+            },
+            "status": "OK",
+            "time": "205.93\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "bob_http_api_bob",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "id": "secret:bob",
+            "owner": "person:bob",
+            "text": "bob secret"
+          }
+        ]
+      }
+    },
+    {
+      "name": "anonymous_api_invoke_alice",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": {
+          "code": 403,
+          "details": "Forbidden",
+          "description": "Not allowed to do this.",
+          "information": "Anonymous access not allowed: Not enough permissions to perform this action"
+        }
+      }
+    },
+    {
+      "name": "anonymous_http_api_alice",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": "Permission denied: You are not allowed to access this resource"
+      }
+    },
+    {
+      "name": "anonymous_api_invoke_bob",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": {
+          "code": 403,
+          "details": "Forbidden",
+          "description": "Not allowed to do this.",
+          "information": "Anonymous access not allowed: Not enough permissions to perform this action"
+        }
+      }
+    },
+    {
+      "name": "anonymous_http_api_bob",
+      "pass": true,
+      "response": {
+        "status": 403,
+        "value": "Permission denied: You are not allowed to access this resource"
+      }
+    },
+    {
+      "name": "function_throw",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "kind": "Thrown",
+            "result": "An error occurred: expected rollback",
+            "status": "ERR",
+            "time": "139.179\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "function_throw_rollback",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "235.024\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "api_throw",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": {
+              "body": "An error occurred: expected rollback",
+              "headers": {
+                "x-surreal-request-id": "795c21e0-f6c9-4cd2-823d-602741e3723b"
+              },
+              "request_id": "795c21e0-f6c9-4cd2-823d-602741e3723b",
+              "status": 500
+            },
+            "status": "OK",
+            "time": "314.754\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "api_throw_rollback",
+      "pass": false,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [
+              {
+                "id": "rollback:api_one"
+              },
+              {
+                "id": "rollback:api_two"
+              }
+            ],
+            "status": "OK",
+            "time": "249.757\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "http_api_throw",
+      "pass": true,
+      "response": {
+        "status": 500,
+        "value": "An error occurred: expected rollback"
+      }
+    },
+    {
+      "name": "http_api_throw_rollback",
+      "pass": false,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [
+              {
+                "id": "rollback:api_one"
+              },
+              {
+                "id": "rollback:api_two"
+              }
+            ],
+            "status": "OK",
+            "time": "274.413\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "explicit_transaction_cancel_api",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": null,
+            "status": "OK",
+            "time": "0ns",
+            "type": null
+          },
+          {
+            "details": {
+              "kind": "Cancelled"
+            },
+            "kind": "Query",
+            "result": "The query was not executed due to a cancelled transaction",
+            "status": "ERR",
+            "time": "355.315\u00b5s",
+            "type": null
+          },
+          {
+            "result": null,
+            "status": "OK",
+            "time": "21.592\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "explicit_cancel_removes_api_writes",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "196.296\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "root_function_throw",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "kind": "Thrown",
+            "result": "An error occurred: expected rollback",
+            "status": "ERR",
+            "time": "321.503\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "root_function_throw_rollback",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [],
+            "status": "OK",
+            "time": "230.206\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "define_api_function_throw",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": null,
+            "status": "OK",
+            "time": "165.869\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "http_api_function_throw",
+      "pass": true,
+      "response": {
+        "status": 500,
+        "value": "An error occurred: expected rollback"
+      }
+    },
+    {
+      "name": "http_api_function_throw_rollback",
+      "pass": false,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [
+              {
+                "id": "rollback:fn_one"
+              },
+              {
+                "id": "rollback:fn_two"
+              }
+            ],
+            "status": "OK",
+            "time": "250.502\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "direct_denied_writes_absent",
+      "pass": true,
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": [
+              {
+                "id": "secret:alice",
+                "owner": "person:alice",
+                "text": "alice secret"
+              },
+              {
+                "id": "secret:bob",
+                "owner": "person:bob",
+                "text": "bob secret"
+              }
+            ],
+            "status": "OK",
+            "time": "221.463\u00b5s",
+            "type": null
+          }
+        ]
+      }
+    }
+  ],
+  "passed": 36,
+  "total": 39,
+  "interpretation": {
+    "scope": "Isolated fixture only. Signin by name is intentional test instrumentation, not production authentication guidance.",
+    "rollback": "Observed v3.3.5 behavior: HTTP API and api::invoke convert THROW to response 500 and preceding writes persist. Direct function call fails transaction and rolls back. Explicit outer CANCEL rolls back api::invoke writes. This is an observed semantics mismatch with required atomic API failure, not a claim of a confirmed upstream bug.",
+    "anonymous": "Server rejects anonymous SQL before evaluation; HTTP custom API auth gate independently refuses anonymous callers.",
+    "http_api_path": "/api/:namespace/security/notes/:id"
+  },
+  "sources": [
+    {
+      "url": "https://github.com/surrealdb/surrealdb/blob/v3.3.5/surrealdb/core/src/api/invocation.rs#L183-L195",
+      "snippet": "183: \t// APIs run without permissions & limit auth\n184: \tlet opt = opt.limited_by(&AuthLimit::try_from(&api.auth_limit)?);\n185: \tlet opt = opt.new_with_perms(false);\n186: \n187: \tdebug!(\n188: \t\trequest_id = %req.request_id,\n189: \t\tmiddleware_count = middleware.len(),\n190: \t\t\"Executing API middleware chain\"\n191: \t);\n192: \tlet mut res: ApiResponse =\n193: \t\tcrate::legacy::closure_invoke(&next, stk, ctx, &opt, None, vec![req.into()])\n194: \t\t\t.await?\n195: \t\t\t.try_into()?;"
+    },
+    {
+      "url": "https://github.com/surrealdb/surrealdb/blob/v3.3.5/surrealdb/core/src/api/invocation.rs#L232-L262",
+      "snippet": "232: \t\t\t\t\tX_SURREAL_REQUEST_ID,\n233: \t\t\t\t\tHeaderValue::from_str(&request_id)\n234: \t\t\t\t\t\t.unwrap_or_else(|_| HeaderValue::from_static(\"unknown\")),\n235: \t\t\t\t);\n236: \t\t\t}\n237: \n238: \t\t\t// Update context\n239: \t\t\tlet mut ctx_isolated = Context::new_isolated(ctx);\n240: \t\t\tctx_isolated.add_value(\"request\", Arc::new(req.into()));\n241: \t\t\tlet ctx_frozen = ctx_isolated.freeze();\n242: \n243: \t\t\t// Clone required values\n244: \t\t\tlet action_expr = action_expr.clone();\n245: \t\t\tlet request_id = request_id.clone();\n246: \t\t\t// Execute\n247: \t\t\tBox::pin(stk.run(async move |stk| {\n248: \t\t\t\t// Computed result\n249: \t\t\t\tlet res = crate::legacy::expr_compute(&action_expr, stk, &ctx_frozen, opt, doc)\n250: \t\t\t\t\t.await\n251: \t\t\t\t\t.catch_return();\n252: \n253: \t\t\t\t// Convert to ApiResponse; set request_id from request for all responses\n254: \t\t\t\tlet mut res = match res {\n255: \t\t\t\t\tOk(res) => ApiResponse::try_from(res)\n256: \t\t\t\t\t\t.unwrap_or_else(|e| ApiResponse::from_error(e, request_id.clone())),\n257: \t\t\t\t\tErr(e) => ApiResponse::from_error(e, request_id.clone()),\n258: \t\t\t\t};\n259: \t\t\t\tres.request_id.clone_from(&request_id);\n260: \t\t\t\tres.ensure_request_id_header();\n261: \n262: \t\t\t\tOk(Value::from(res))"
+    },
+    {
+      "url": "https://github.com/surrealdb/surrealdb/blob/v3.3.5/surrealdb/core/src/legacy/expr/function.rs#L55-L91",
+      "snippet": "55: \t\t\t// Get the function definition\n56: \t\t\tlet (ns, db) = ctx.expect_ns_db_ids(opt).await?;\n57: \t\t\tlet val = ctx.tx().get_db_function(ns, db, s, opt.version).await?;\n58: \t\t\tlet opt = opt.limited_by(&AuthLimit::try_from(&val.auth_limit)?);\n59: \n60: \t\t\t// Check permissions\n61: \t\t\tif ctx.check_perms(&opt, Action::View)? {\n62: \t\t\t\tcheck_perms(stk, ctx, &opt, doc, &name, &val.permissions).await?;\n63: \t\t\t}\n64: \t\t\t// Validate the arguments\n65: \t\t\tvalidate_args(\n66: \t\t\t\t&name,\n67: \t\t\t\t&args,\n68: \t\t\t\t&val.args.iter().map(|(_, k)| k.clone()).collect::<Vec<Kind>>(),\n69: \t\t\t)?;\n70: \t\t\t// Compute the function arguments\n71: \t\t\t// Duplicate context\n72: \t\t\tlet mut ctx = Context::new_isolated(ctx);\n73: \t\t\t// Process the function arguments\n74: \t\t\tfor (val, (param_name, kind)) in args.into_iter().zip(&val.args) {\n75: \t\t\t\tctx.add_value(\n76: \t\t\t\t\tparam_name.clone(),\n77: \t\t\t\t\tval.coerce_to_kind(kind)\n78: \t\t\t\t\t\t.map_err(|e| ExprError::InvalidFunctionArguments {\n79: \t\t\t\t\t\t\tname: name.clone(),\n80: \t\t\t\t\t\t\tmessage: format!(\"Failed to coerce argument `${param_name}`: {e}\"),\n81: \t\t\t\t\t\t})\n82: \t\t\t\t\t\t.map_err(anyhow::Error::new)?\n83: \t\t\t\t\t\t.into(),\n84: \t\t\t\t);\n85: \t\t\t}\n86: \t\t\tlet ctx = ctx.freeze();\n87: \t\t\t// Run the custom function\n88: \t\t\tlet result = stk\n89: \t\t\t\t.run(|stk| crate::legacy::block_compute(&val.block, stk, &ctx, &opt, doc))\n90: \t\t\t\t.await\n91: \t\t\t\t.catch_return()?;"
+    },
+    {
+      "url": "https://github.com/surrealdb/surrealdb/blob/v3.3.5/surrealdb/server/src/ntw/api.rs#L120-L136",
+      "snippet": "120: \ttrace!(\n121: \t\trequest_id = %request_id,\n122: \t\tstatus = %res.status,\n123: \t\t\"API handler completed\"\n124: \t);\n125: \tlet res_body = match res.body {\n126: \t\tValue::None => Vec::new(),\n127: \t\tValue::Bytes(x) => x.into_inner().to_vec(),\n128: \t\tValue::String(s) => s.into_bytes(),\n129: \t\t_ => {\n130: \t\t\treturn Err(ApiHandlerError(\n131: \t\t\t\tApiError::InvalidApiResponse(\n132: \t\t\t\t\t\"HTTP API response body must be None, bytes, or string; other values are not supported\".into(),\n133: \t\t\t\t)\n134: \t\t\t\t.into(),\n135: \t\t\t\trequest_id,\n136: \t\t\t));"
+    }
+  ]
+}

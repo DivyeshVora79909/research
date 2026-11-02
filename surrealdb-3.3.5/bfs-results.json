@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "version": "3.3.5",
+    "backend": "in-memory",
+    "authentication": "Bearer root JWT",
+    "N": 10000,
+    "root": "linknode:4999",
+    "heightStages": 14,
+    "notes": [
+      "Boundary key comes from subtree counts through recursive rank selection; caller supplies only root and k.",
+      "Each frontier stage SELECTs persisted nodes as a batch; right children are pruned when parent key is at or above boundary.",
+      "Matched record references are concatenated once per level, then hydrated in a final bulk SELECT ordered by x.",
+      "One HTTP query per invocation; internal SELECT concurrency is not guaranteed.",
+      "Visited counts exclude rank-selection node reads and final hydration; batches counts nonempty BFS frontiers."
+    ]
+  },
+  "cases": [
+    {
+      "k": 50,
+      "correct": true,
+      "visited": 59,
+      "batches": 14,
+      "endToEndMs": {
+        "n": 5,
+        "min": 4.961619000000013,
+        "median": 5.136892999999986,
+        "max": 6.676533000000006
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 3.147349,
+        "median": 3.271516,
+        "max": 4.837907
+      }
+    },
+    {
+      "k": 100,
+      "correct": true,
+      "visited": 109,
+      "batches": 14,
+      "endToEndMs": {
+        "n": 5,
+        "min": 5.227069000000029,
+        "median": 5.65790800000002,
+        "max": 5.950177999999994
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 3.916283,
+        "median": 4.115453,
+        "max": 4.456032
+      }
+    },
+    {
+      "k": 1000,
+      "correct": true,
+      "visited": 1006,
+      "batches": 14,
+      "endToEndMs": {
+        "n": 5,
+        "min": 27.256414999999947,
+        "median": 27.998612999999978,
+        "max": 28.942795999999987
+      },
+      "serverMs": {
+        "n": 5,
+        "min": 23.847286,
+        "median": 24.283514,
+        "max": 25.524905
+      }
+    }
+  ]
+}

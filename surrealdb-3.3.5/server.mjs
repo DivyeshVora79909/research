@@ -1,0 +1,14 @@
+import {spawn} from 'node:child_process';
+import {createServer} from 'node:net';
+import fs from 'node:fs';
+import {randomBytes} from 'node:crypto';
+import {once} from 'node:events';
+const root='/tmp/rebase-surreal-study';
+const probe=createServer();probe.listen(0,'127.0.0.1');await once(probe,'listening');const port=probe.address().port;await new Promise(r=>probe.close(r));
+const config={base:`http://127.0.0.1:${port}`,user:'root',pass:randomBytes(18).toString('hex'),ns:'research',db:'security'};
+fs.writeFileSync(`${root}/connection.json`,JSON.stringify(config),{mode:0o600});
+const out=fs.openSync(`${root}/server.stdout.log`,'w'),err=fs.openSync(`${root}/server.stderr.log`,'w');
+const p=spawn(`${root}/runtime/surreal`,['start','--no-banner','--bind',`127.0.0.1:${port}`,'--user',config.user,'--pass',config.pass,'--log','warn','memory'],{stdio:['ignore',out,err]});fs.closeSync(out);fs.closeSync(err);fs.writeFileSync(`${root}/server.pid`,String(p.pid));
+const deadline=setTimeout(()=>p.kill('SIGTERM'),15*60*1000);
+const poll=setInterval(()=>{if(fs.existsSync(`${root}/stop`))p.kill('SIGTERM');},500);
+await once(p,'close');clearTimeout(deadline);clearInterval(poll);console.log('owned SurrealDB process stopped');

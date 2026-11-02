@@ -1,0 +1,7533 @@
+{
+  "scope": "three local FDB7.3.77 processes, one host/DC/region, triple SSD, warm native research reads; not WAN",
+  "started": "2026-11-01T13:32:37.157Z",
+  "processes": [
+    {
+      "name": "fdb-0",
+      "pid": 239342,
+      "port": 40067
+    },
+    {
+      "name": "fdb-1",
+      "pid": 239343,
+      "port": 38071
+    },
+    {
+      "name": "fdb-2",
+      "pid": 239344,
+      "port": 33681
+    }
+  ],
+  "resourceSamples": [
+    {
+      "time": "2026-11-01T13:32:38.168Z",
+      "allocatedBytes": 196608,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 3,
+          "rssBytes": 58564608
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2,
+          "rssBytes": 52924416
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1,
+          "rssBytes": 52801536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:39.168Z",
+      "allocatedBytes": 208896,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 3,
+          "rssBytes": 59273216
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2,
+          "rssBytes": 53080064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2,
+          "rssBytes": 52801536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:40.173Z",
+      "allocatedBytes": 208896,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 3,
+          "rssBytes": 59273216
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2,
+          "rssBytes": 53080064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2,
+          "rssBytes": 52801536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:41.175Z",
+      "allocatedBytes": 208896,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 3,
+          "rssBytes": 59273216
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2,
+          "rssBytes": 53080064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2,
+          "rssBytes": 52801536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:42.175Z",
+      "allocatedBytes": 630120448,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 11,
+          "rssBytes": 82489344
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 8,
+          "rssBytes": 79978496
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 7,
+          "rssBytes": 77418496
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:43.175Z",
+      "allocatedBytes": 630620160,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 13,
+          "rssBytes": 85004288
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 10,
+          "rssBytes": 81682432
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 10,
+          "rssBytes": 81313792
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:44.175Z",
+      "allocatedBytes": 630644736,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 14,
+          "rssBytes": 85004288
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 11,
+          "rssBytes": 81682432
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 12,
+          "rssBytes": 83009536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:45.177Z",
+      "allocatedBytes": 630648832,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 15,
+          "rssBytes": 85135360
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 11,
+          "rssBytes": 81682432
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 13,
+          "rssBytes": 83009536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:46.174Z",
+      "allocatedBytes": 630657024,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 17,
+          "rssBytes": 85266432
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 13,
+          "rssBytes": 81682432
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 15,
+          "rssBytes": 83009536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:47.175Z",
+      "allocatedBytes": 630734848,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 17,
+          "rssBytes": 85266432
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 13,
+          "rssBytes": 81182720
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 17,
+          "rssBytes": 83009536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:48.175Z",
+      "allocatedBytes": 630800384,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 18,
+          "rssBytes": 85532672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 14,
+          "rssBytes": 81182720
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 19,
+          "rssBytes": 83009536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:49.176Z",
+      "allocatedBytes": 630861824,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 19,
+          "rssBytes": 85532672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 14,
+          "rssBytes": 81182720
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 21,
+          "rssBytes": 83140608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:50.177Z",
+      "allocatedBytes": 630870016,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 20,
+          "rssBytes": 85532672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 15,
+          "rssBytes": 81182720
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 21,
+          "rssBytes": 83140608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:51.178Z",
+      "allocatedBytes": 630882304,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 21,
+          "rssBytes": 85532672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 15,
+          "rssBytes": 81182720
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 23,
+          "rssBytes": 83140608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:52.179Z",
+      "allocatedBytes": 630964224,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 23,
+          "rssBytes": 85532672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 17,
+          "rssBytes": 80691200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 25,
+          "rssBytes": 83140608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:53.179Z",
+      "allocatedBytes": 631054336,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 24,
+          "rssBytes": 85532672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 17,
+          "rssBytes": 80691200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 26,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:54.179Z",
+      "allocatedBytes": 631062528,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 24,
+          "rssBytes": 85110784
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 18,
+          "rssBytes": 80691200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 28,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:55.180Z",
+      "allocatedBytes": 631062528,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 25,
+          "rssBytes": 85110784
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 19,
+          "rssBytes": 80691200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 29,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:56.180Z",
+      "allocatedBytes": 631066624,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 25,
+          "rssBytes": 85110784
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 19,
+          "rssBytes": 80691200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 31,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:57.181Z",
+      "allocatedBytes": 631111680,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 26,
+          "rssBytes": 84918272
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 19,
+          "rssBytes": 80543744
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 32,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:58.182Z",
+      "allocatedBytes": 631169024,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 27,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 21,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 33,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:32:59.183Z",
+      "allocatedBytes": 631169024,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 27,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 21,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 35,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:00.183Z",
+      "allocatedBytes": 631173120,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 28,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 22,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 37,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:01.183Z",
+      "allocatedBytes": 631177216,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 29,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 22,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 38,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:02.184Z",
+      "allocatedBytes": 631726080,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 30,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 23,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 40,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:03.185Z",
+      "allocatedBytes": 631783424,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 30,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 24,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 41,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:04.186Z",
+      "allocatedBytes": 631787520,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 30,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 25,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 43,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:05.186Z",
+      "allocatedBytes": 631787520,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 31,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 25,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 44,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:06.185Z",
+      "allocatedBytes": 631791616,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 31,
+          "rssBytes": 84783104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 26,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 45,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:07.185Z",
+      "allocatedBytes": 631832576,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 33,
+          "rssBytes": 84004864
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 26,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 47,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:08.185Z",
+      "allocatedBytes": 631894016,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 33,
+          "rssBytes": 84004864
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 27,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 48,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:09.185Z",
+      "allocatedBytes": 631898112,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 33,
+          "rssBytes": 84004864
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 27,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 49,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:10.185Z",
+      "allocatedBytes": 631898112,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 34,
+          "rssBytes": 84004864
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 28,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 50,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:11.186Z",
+      "allocatedBytes": 631898112,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 35,
+          "rssBytes": 84004864
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 28,
+          "rssBytes": 80674816
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 52,
+          "rssBytes": 82898944
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:12.187Z",
+      "allocatedBytes": 631959552,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 35,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 30,
+          "rssBytes": 80965632
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 53,
+          "rssBytes": 83030016
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:13.187Z",
+      "allocatedBytes": 632020992,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 36,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 30,
+          "rssBytes": 80965632
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 55,
+          "rssBytes": 83423232
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:14.187Z",
+      "allocatedBytes": 632037376,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 36,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 30,
+          "rssBytes": 80965632
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 56,
+          "rssBytes": 83423232
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:15.187Z",
+      "allocatedBytes": 632037376,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 37,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 31,
+          "rssBytes": 80965632
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 57,
+          "rssBytes": 83423232
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:16.187Z",
+      "allocatedBytes": 632041472,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 37,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 31,
+          "rssBytes": 80965632
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 59,
+          "rssBytes": 83423232
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:17.187Z",
+      "allocatedBytes": 632082432,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 38,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 32,
+          "rssBytes": 81096704
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 60,
+          "rssBytes": 83423232
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:18.187Z",
+      "allocatedBytes": 632143872,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 39,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 33,
+          "rssBytes": 81096704
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 61,
+          "rssBytes": 83554304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:19.186Z",
+      "allocatedBytes": 632152064,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 39,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 34,
+          "rssBytes": 81096704
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 63,
+          "rssBytes": 83554304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:20.186Z",
+      "allocatedBytes": 632152064,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 40,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 34,
+          "rssBytes": 81096704
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 65,
+          "rssBytes": 83554304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:21.187Z",
+      "allocatedBytes": 632156160,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 41,
+          "rssBytes": 84267008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 34,
+          "rssBytes": 81096704
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 66,
+          "rssBytes": 83554304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:22.189Z",
+      "allocatedBytes": 632217600,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 42,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 35,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 67,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:23.189Z",
+      "allocatedBytes": 632274944,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 42,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 36,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 69,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:24.189Z",
+      "allocatedBytes": 632279040,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 43,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 37,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 71,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:25.188Z",
+      "allocatedBytes": 632283136,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 43,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 37,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 71,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:26.188Z",
+      "allocatedBytes": 632283136,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 44,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 38,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 72,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:27.189Z",
+      "allocatedBytes": 632332288,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 44,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 38,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 74,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:28.190Z",
+      "allocatedBytes": 632393728,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 44,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 38,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 76,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:29.190Z",
+      "allocatedBytes": 632401920,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 46,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 40,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 77,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:30.190Z",
+      "allocatedBytes": 632406016,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 46,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 40,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 78,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:31.209Z",
+      "allocatedBytes": 632410112,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 46,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 41,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 80,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:32.213Z",
+      "allocatedBytes": 632467456,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 48,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 42,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 82,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:33.213Z",
+      "allocatedBytes": 632528896,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 48,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 43,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 83,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:34.213Z",
+      "allocatedBytes": 632532992,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 48,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 44,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 85,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:35.213Z",
+      "allocatedBytes": 632537088,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 50,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 44,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 87,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:36.213Z",
+      "allocatedBytes": 632541184,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 50,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 44,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 88,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:37.213Z",
+      "allocatedBytes": 632582144,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 51,
+          "rssBytes": 84127744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 45,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 89,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:38.213Z",
+      "allocatedBytes": 632651776,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 51,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 46,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 90,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:39.214Z",
+      "allocatedBytes": 632659968,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 51,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 46,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 91,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:40.215Z",
+      "allocatedBytes": 632664064,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 52,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 46,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 93,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:41.216Z",
+      "allocatedBytes": 632668160,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 53,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 47,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 94,
+          "rssBytes": 83390464
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:42.216Z",
+      "allocatedBytes": 632741888,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 54,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 48,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 96,
+          "rssBytes": 83521536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:43.216Z",
+      "allocatedBytes": 632803328,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 55,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 48,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 98,
+          "rssBytes": 83521536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:44.216Z",
+      "allocatedBytes": 632811520,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 55,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 50,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 99,
+          "rssBytes": 83521536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:45.216Z",
+      "allocatedBytes": 632811520,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 55,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 50,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 100,
+          "rssBytes": 83521536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:46.216Z",
+      "allocatedBytes": 632811520,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 56,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 50,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 101,
+          "rssBytes": 83521536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:47.217Z",
+      "allocatedBytes": 632860672,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 57,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 51,
+          "rssBytes": 80961536
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 103,
+          "rssBytes": 83521536
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:48.218Z",
+      "allocatedBytes": 632918016,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 57,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 52,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 105,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:49.219Z",
+      "allocatedBytes": 632926208,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 57,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 52,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 106,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:50.219Z",
+      "allocatedBytes": 632926208,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 57,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 53,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 107,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:51.219Z",
+      "allocatedBytes": 632926208,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 59,
+          "rssBytes": 84389888
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 53,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 108,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:52.219Z",
+      "allocatedBytes": 632987648,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 60,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 55,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 110,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:53.219Z",
+      "allocatedBytes": 633049088,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 60,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 55,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 112,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:54.218Z",
+      "allocatedBytes": 633053184,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 60,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 56,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 112,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:55.218Z",
+      "allocatedBytes": 633053184,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 61,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 56,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 114,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:56.219Z",
+      "allocatedBytes": 633053184,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 61,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 57,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 115,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:57.220Z",
+      "allocatedBytes": 633094144,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 62,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 57,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 117,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:58.221Z",
+      "allocatedBytes": 633151488,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 63,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 59,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 118,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:33:59.220Z",
+      "allocatedBytes": 633155584,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 63,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 59,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 119,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:00.220Z",
+      "allocatedBytes": 633155584,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 63,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 59,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 120,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:01.221Z",
+      "allocatedBytes": 633155584,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 64,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 59,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 122,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:02.222Z",
+      "allocatedBytes": 633221120,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 65,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 60,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 123,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:03.222Z",
+      "allocatedBytes": 633274368,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 66,
+          "rssBytes": 84258816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 61,
+          "rssBytes": 81092608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 125,
+          "rssBytes": 83652608
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:04.222Z",
+      "allocatedBytes": 633970688,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 67,
+          "rssBytes": 87797760
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 63,
+          "rssBytes": 87252992
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 129,
+          "rssBytes": 87584768
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 47,
+          "rssBytes": 269594624
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:05.222Z",
+      "allocatedBytes": 652201984,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 80,
+          "rssBytes": 103034880
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 78,
+          "rssBytes": 100204544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 142,
+          "rssBytes": 99614720
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 115,
+          "rssBytes": 270381056
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:06.225Z",
+      "allocatedBytes": 673193984,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 95,
+          "rssBytes": 116207616
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 94,
+          "rssBytes": 112787456
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 157,
+          "rssBytes": 111542272
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 181,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:07.226Z",
+      "allocatedBytes": 704696320,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 110,
+          "rssBytes": 129314816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 108,
+          "rssBytes": 123871232
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 172,
+          "rssBytes": 122863616
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 243,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:08.226Z",
+      "allocatedBytes": 704757760,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 125,
+          "rssBytes": 142290944
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 124,
+          "rssBytes": 135438336
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 187,
+          "rssBytes": 134918144
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 306,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:09.226Z",
+      "allocatedBytes": 704761856,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 141,
+          "rssBytes": 154730496
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 139,
+          "rssBytes": 146579456
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 201,
+          "rssBytes": 145534976
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 370,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:10.227Z",
+      "allocatedBytes": 749637632,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 166,
+          "rssBytes": 186359808
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 160,
+          "rssBytes": 174452736
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 223,
+          "rssBytes": 173395968
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 426,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:11.227Z",
+      "allocatedBytes": 772239360,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 194,
+          "rssBytes": 220905472
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 187,
+          "rssBytes": 208642048
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 252,
+          "rssBytes": 209539072
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 478,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:12.227Z",
+      "allocatedBytes": 816553984,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 220,
+          "rssBytes": 245698560
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 217,
+          "rssBytes": 233189376
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 282,
+          "rssBytes": 233066496
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 531,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:13.229Z",
+      "allocatedBytes": 834678784,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 253,
+          "rssBytes": 275750912
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 250,
+          "rssBytes": 263282688
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 312,
+          "rssBytes": 261779456
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 583,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:14.229Z",
+      "allocatedBytes": 846495744,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 281,
+          "rssBytes": 294047744
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 281,
+          "rssBytes": 282423296
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 344,
+          "rssBytes": 283123712
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 640,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:15.231Z",
+      "allocatedBytes": 879005696,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 309,
+          "rssBytes": 312864768
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 311,
+          "rssBytes": 299327488
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 373,
+          "rssBytes": 302542848
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 698,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:16.231Z",
+      "allocatedBytes": 880930816,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 338,
+          "rssBytes": 320712704
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 335,
+          "rssBytes": 306716672
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 398,
+          "rssBytes": 307703808
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 755,
+          "rssBytes": 270446592
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:17.233Z",
+      "allocatedBytes": 880979968,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 364,
+          "rssBytes": 330543104
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 362,
+          "rssBytes": 317693952
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 424,
+          "rssBytes": 316190720
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 810,
+          "rssBytes": 270503936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:18.236Z",
+      "allocatedBytes": 913620992,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 393,
+          "rssBytes": 326729728
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 389,
+          "rssBytes": 314703872
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 453,
+          "rssBytes": 314126336
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 866,
+          "rssBytes": 270503936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:19.236Z",
+      "allocatedBytes": 921391104,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 429,
+          "rssBytes": 333676544
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 423,
+          "rssBytes": 319721472
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 489,
+          "rssBytes": 318689280
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 921,
+          "rssBytes": 270503936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:20.237Z",
+      "allocatedBytes": 921714688,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 465,
+          "rssBytes": 338001920
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 460,
+          "rssBytes": 323260416
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 524,
+          "rssBytes": 322490368
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 977,
+          "rssBytes": 270503936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:21.237Z",
+      "allocatedBytes": 924635136,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 503,
+          "rssBytes": 332345344
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 498,
+          "rssBytes": 318087168
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 563,
+          "rssBytes": 316551168
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1033,
+          "rssBytes": 270503936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:22.239Z",
+      "allocatedBytes": 938242048,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 542,
+          "rssBytes": 338808832
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 544,
+          "rssBytes": 326180864
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 610,
+          "rssBytes": 325332992
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1089,
+          "rssBytes": 270503936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:23.240Z",
+      "allocatedBytes": 941248512,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 585,
+          "rssBytes": 349556736
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 584,
+          "rssBytes": 336142336
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 653,
+          "rssBytes": 334114816
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1143,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:24.239Z",
+      "allocatedBytes": 941555712,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 636,
+          "rssBytes": 342654976
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 628,
+          "rssBytes": 330006528
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 699,
+          "rssBytes": 327430144
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1196,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:25.241Z",
+      "allocatedBytes": 941559808,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 678,
+          "rssBytes": 346324992
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 669,
+          "rssBytes": 331341824
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 742,
+          "rssBytes": 330588160
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1250,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:26.241Z",
+      "allocatedBytes": 941568000,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 723,
+          "rssBytes": 339554304
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 708,
+          "rssBytes": 320626688
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 784,
+          "rssBytes": 323121152
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1304,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:27.243Z",
+      "allocatedBytes": 941625344,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 768,
+          "rssBytes": 341622784
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 752,
+          "rssBytes": 322260992
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 830,
+          "rssBytes": 324890624
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1358,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:28.243Z",
+      "allocatedBytes": 941670400,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 814,
+          "rssBytes": 330752000
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 797,
+          "rssBytes": 314740736
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 876,
+          "rssBytes": 315998208
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1412,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:29.244Z",
+      "allocatedBytes": 941678592,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 856,
+          "rssBytes": 336445440
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 840,
+          "rssBytes": 315658240
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 922,
+          "rssBytes": 320413696
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1466,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:30.245Z",
+      "allocatedBytes": 1256251392,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 881,
+          "rssBytes": 339939328
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 864,
+          "rssBytes": 319692800
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 946,
+          "rssBytes": 314990592
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1520,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:31.247Z",
+      "allocatedBytes": 1256255488,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 902,
+          "rssBytes": 334737408
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 885,
+          "rssBytes": 312692736
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 969,
+          "rssBytes": 316051456
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1578,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:32.246Z",
+      "allocatedBytes": 1256341504,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 926,
+          "rssBytes": 338141184
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 909,
+          "rssBytes": 315301888
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 993,
+          "rssBytes": 319762432
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1639,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:33.247Z",
+      "allocatedBytes": 1256378368,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 953,
+          "rssBytes": 340500480
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 936,
+          "rssBytes": 317120512
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1020,
+          "rssBytes": 312139776
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1700,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:34.248Z",
+      "allocatedBytes": 1256386560,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 983,
+          "rssBytes": 333590528
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 964,
+          "rssBytes": 307683328
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1050,
+          "rssBytes": 315146240
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1754,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:35.247Z",
+      "allocatedBytes": 1256394752,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1013,
+          "rssBytes": 335425536
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 992,
+          "rssBytes": 307834880
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1079,
+          "rssBytes": 317370368
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1813,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:36.248Z",
+      "allocatedBytes": 1256402944,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1041,
+          "rssBytes": 337915904
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1019,
+          "rssBytes": 312160256
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1107,
+          "rssBytes": 312627200
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1872,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:37.248Z",
+      "allocatedBytes": 1256472576,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1068,
+          "rssBytes": 329613312
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1046,
+          "rssBytes": 303923200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1134,
+          "rssBytes": 314064896
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1934,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:38.248Z",
+      "allocatedBytes": 1256513536,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1097,
+          "rssBytes": 331194368
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1071,
+          "rssBytes": 306151424
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1161,
+          "rssBytes": 315768832
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 1993,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:39.249Z",
+      "allocatedBytes": 1256525824,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1125,
+          "rssBytes": 329523200
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1098,
+          "rssBytes": 308248576
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1189,
+          "rssBytes": 317730816
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2052,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:40.250Z",
+      "allocatedBytes": 1256525824,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1152,
+          "rssBytes": 320446464
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1126,
+          "rssBytes": 296833024
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1218,
+          "rssBytes": 305987584
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2117,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:41.250Z",
+      "allocatedBytes": 1256529920,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1177,
+          "rssBytes": 321773568
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1153,
+          "rssBytes": 298971136
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1244,
+          "rssBytes": 306888704
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2183,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:42.250Z",
+      "allocatedBytes": 1256632320,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1206,
+          "rssBytes": 323162112
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1177,
+          "rssBytes": 298291200
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1272,
+          "rssBytes": 307384320
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2249,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:43.252Z",
+      "allocatedBytes": 1256673280,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1233,
+          "rssBytes": 324243456
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1202,
+          "rssBytes": 299180032
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1299,
+          "rssBytes": 306253824
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2315,
+          "rssBytes": 270635008
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:44.253Z",
+      "allocatedBytes": 1256685568,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1259,
+          "rssBytes": 315674624
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1229,
+          "rssBytes": 291590144
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1326,
+          "rssBytes": 297164800
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2384,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:45.255Z",
+      "allocatedBytes": 1256685568,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1278,
+          "rssBytes": 317591552
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1247,
+          "rssBytes": 294211584
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1344,
+          "rssBytes": 298070016
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2455,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:46.256Z",
+      "allocatedBytes": 1256689664,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1293,
+          "rssBytes": 319926272
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1262,
+          "rssBytes": 296693760
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1360,
+          "rssBytes": 300916736
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2522,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:47.256Z",
+      "allocatedBytes": 1256755200,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1308,
+          "rssBytes": 322404352
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1277,
+          "rssBytes": 298672128
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1375,
+          "rssBytes": 302243840
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2591,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:48.256Z",
+      "allocatedBytes": 1256792064,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1322,
+          "rssBytes": 316510208
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1291,
+          "rssBytes": 293081088
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1389,
+          "rssBytes": 296280064
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2664,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:49.257Z",
+      "allocatedBytes": 1256796160,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1337,
+          "rssBytes": 320049152
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1307,
+          "rssBytes": 296570880
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1404,
+          "rssBytes": 299556864
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2732,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:50.259Z",
+      "allocatedBytes": 1256796160,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1352,
+          "rssBytes": 326078464
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1322,
+          "rssBytes": 300597248
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1420,
+          "rssBytes": 303067136
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2804,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:51.260Z",
+      "allocatedBytes": 1256800256,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1366,
+          "rssBytes": 329773056
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1336,
+          "rssBytes": 302825472
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1436,
+          "rssBytes": 305557504
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2876,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:52.261Z",
+      "allocatedBytes": 1256894464,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1382,
+          "rssBytes": 323309568
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1351,
+          "rssBytes": 294854656
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1453,
+          "rssBytes": 298811392
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 2945,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:53.263Z",
+      "allocatedBytes": 1256927232,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1399,
+          "rssBytes": 328421376
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1370,
+          "rssBytes": 299311104
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1471,
+          "rssBytes": 302350336
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3007,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:54.264Z",
+      "allocatedBytes": 1256931328,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1415,
+          "rssBytes": 331960320
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1384,
+          "rssBytes": 301400064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1485,
+          "rssBytes": 305627136
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3078,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:55.264Z",
+      "allocatedBytes": 1256931328,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1431,
+          "rssBytes": 325464064
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1399,
+          "rssBytes": 295755776
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1499,
+          "rssBytes": 298811392
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3150,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:56.265Z",
+      "allocatedBytes": 1256931328,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1455,
+          "rssBytes": 406192128
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1422,
+          "rssBytes": 362795008
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1524,
+          "rssBytes": 369852416
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3199,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:57.267Z",
+      "allocatedBytes": 1257005056,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1480,
+          "rssBytes": 519569408
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1448,
+          "rssBytes": 478924800
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1552,
+          "rssBytes": 487030784
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3243,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:58.268Z",
+      "allocatedBytes": 1257037824,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1511,
+          "rssBytes": 546832384
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1477,
+          "rssBytes": 503300096
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1588,
+          "rssBytes": 554008576
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3286,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:34:59.269Z",
+      "allocatedBytes": 1257041920,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1535,
+          "rssBytes": 586379264
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1502,
+          "rssBytes": 564379648
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1619,
+          "rssBytes": 663322624
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3332,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:00.271Z",
+      "allocatedBytes": 1257041920,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1566,
+          "rssBytes": 606433280
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1533,
+          "rssBytes": 576229376
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1652,
+          "rssBytes": 662425600
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3372,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:01.272Z",
+      "allocatedBytes": 1257041920,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1589,
+          "rssBytes": 609050624
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1556,
+          "rssBytes": 566259712
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1680,
+          "rssBytes": 651198464
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3417,
+          "rssBytes": 270766080
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:02.272Z",
+      "allocatedBytes": 1257123840,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1613,
+          "rssBytes": 597655552
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1579,
+          "rssBytes": 543977472
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1706,
+          "rssBytes": 642482176
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3467,
+          "rssBytes": 270954496
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:03.273Z",
+      "allocatedBytes": 1257160704,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1624,
+          "rssBytes": 574365696
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1591,
+          "rssBytes": 529010688
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1719,
+          "rssBytes": 615698432
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3537,
+          "rssBytes": 276459520
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:04.275Z",
+      "allocatedBytes": 1257164800,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1636,
+          "rssBytes": 538632192
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1602,
+          "rssBytes": 478134272
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1733,
+          "rssBytes": 584630272
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3609,
+          "rssBytes": 276459520
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:05.276Z",
+      "allocatedBytes": 1257168896,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1648,
+          "rssBytes": 507420672
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1613,
+          "rssBytes": 478134272
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1745,
+          "rssBytes": 584630272
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3684,
+          "rssBytes": 276459520
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:06.277Z",
+      "allocatedBytes": 1257168896,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1659,
+          "rssBytes": 488259584
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1625,
+          "rssBytes": 416280576
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1758,
+          "rssBytes": 529604608
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3755,
+          "rssBytes": 276459520
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:07.279Z",
+      "allocatedBytes": 1257242624,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1672,
+          "rssBytes": 467079168
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1639,
+          "rssBytes": 393764864
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1772,
+          "rssBytes": 500056064
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3831,
+          "rssBytes": 280653824
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:08.279Z",
+      "allocatedBytes": 1257275392,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1684,
+          "rssBytes": 462938112
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1651,
+          "rssBytes": 388231168
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1786,
+          "rssBytes": 487182336
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3900,
+          "rssBytes": 299921408
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:09.280Z",
+      "allocatedBytes": 1257279488,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1696,
+          "rssBytes": 462938112
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1663,
+          "rssBytes": 383344640
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1799,
+          "rssBytes": 474615808
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 3970,
+          "rssBytes": 319320064
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:10.279Z",
+      "allocatedBytes": 1257279488,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1708,
+          "rssBytes": 452308992
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1675,
+          "rssBytes": 378224640
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1814,
+          "rssBytes": 471830528
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4041,
+          "rssBytes": 338063360
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:11.280Z",
+      "allocatedBytes": 1257279488,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1720,
+          "rssBytes": 452308992
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1686,
+          "rssBytes": 378224640
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1827,
+          "rssBytes": 465383424
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4114,
+          "rssBytes": 345124864
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:12.280Z",
+      "allocatedBytes": 1257361408,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1731,
+          "rssBytes": 439918592
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1698,
+          "rssBytes": 370130944
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1842,
+          "rssBytes": 464326656
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4189,
+          "rssBytes": 345255936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:13.281Z",
+      "allocatedBytes": 1257394176,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1742,
+          "rssBytes": 439754752
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1710,
+          "rssBytes": 370130944
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1855,
+          "rssBytes": 461684736
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4265,
+          "rssBytes": 345255936
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:14.282Z",
+      "allocatedBytes": 1257402368,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1754,
+          "rssBytes": 437391360
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1722,
+          "rssBytes": 358744064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1870,
+          "rssBytes": 457842688
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4340,
+          "rssBytes": 347484160
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:15.283Z",
+      "allocatedBytes": 1257406464,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1766,
+          "rssBytes": 437391360
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1733,
+          "rssBytes": 358744064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1882,
+          "rssBytes": 453124096
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4413,
+          "rssBytes": 347746304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:16.284Z",
+      "allocatedBytes": 1257410560,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1777,
+          "rssBytes": 429363200
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1744,
+          "rssBytes": 340312064
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1895,
+          "rssBytes": 446959616
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4487,
+          "rssBytes": 347746304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:17.285Z",
+      "allocatedBytes": 1257480192,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1789,
+          "rssBytes": 426577920
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1756,
+          "rssBytes": 317542400
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1907,
+          "rssBytes": 441004032
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4559,
+          "rssBytes": 347746304
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:18.285Z",
+      "allocatedBytes": 1257512960,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1800,
+          "rssBytes": 419921920
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1767,
+          "rssBytes": 313323520
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1919,
+          "rssBytes": 427315200
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4632,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:19.287Z",
+      "allocatedBytes": 1257517056,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1811,
+          "rssBytes": 419921920
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1780,
+          "rssBytes": 313323520
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1932,
+          "rssBytes": 418029568
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4704,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:20.288Z",
+      "allocatedBytes": 1257521152,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1824,
+          "rssBytes": 384692224
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1791,
+          "rssBytes": 302796800
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1945,
+          "rssBytes": 398589952
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4777,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:21.289Z",
+      "allocatedBytes": 1257521152,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1834,
+          "rssBytes": 384692224
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1802,
+          "rssBytes": 302796800
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1958,
+          "rssBytes": 395681792
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4850,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:22.291Z",
+      "allocatedBytes": 1257607168,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1845,
+          "rssBytes": 357949440
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1814,
+          "rssBytes": 263471104
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1970,
+          "rssBytes": 359821312
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4924,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:23.293Z",
+      "allocatedBytes": 1257639936,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1856,
+          "rssBytes": 354734080
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1825,
+          "rssBytes": 263471104
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1982,
+          "rssBytes": 352362496
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 4996,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:24.293Z",
+      "allocatedBytes": 1257644032,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1868,
+          "rssBytes": 336125952
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1836,
+          "rssBytes": 259072000
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 1995,
+          "rssBytes": 327110656
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5070,
+          "rssBytes": 349188096
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:25.294Z",
+      "allocatedBytes": 1257652224,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1878,
+          "rssBytes": 336125952
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1848,
+          "rssBytes": 259072000
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2007,
+          "rssBytes": 327110656
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5142,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:26.294Z",
+      "allocatedBytes": 1257652224,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1890,
+          "rssBytes": 321826816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1860,
+          "rssBytes": 233467904
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2021,
+          "rssBytes": 299757568
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5211,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:27.296Z",
+      "allocatedBytes": 1257717760,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1901,
+          "rssBytes": 296390656
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1871,
+          "rssBytes": 219951104
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2033,
+          "rssBytes": 291852288
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5282,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:28.296Z",
+      "allocatedBytes": 1257754624,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1913,
+          "rssBytes": 277360640
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1883,
+          "rssBytes": 210939904
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2045,
+          "rssBytes": 282636288
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5353,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:29.297Z",
+      "allocatedBytes": 1257758720,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1924,
+          "rssBytes": 277360640
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1895,
+          "rssBytes": 210939904
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2059,
+          "rssBytes": 282636288
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5420,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:30.299Z",
+      "allocatedBytes": 1257758720,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1938,
+          "rssBytes": 262778880
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1908,
+          "rssBytes": 198508544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2072,
+          "rssBytes": 250359808
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5488,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:31.300Z",
+      "allocatedBytes": 1257758720,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1950,
+          "rssBytes": 262778880
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1920,
+          "rssBytes": 198508544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2087,
+          "rssBytes": 250359808
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5555,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:32.305Z",
+      "allocatedBytes": 1257848832,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1962,
+          "rssBytes": 248279040
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1933,
+          "rssBytes": 198508544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2101,
+          "rssBytes": 230920192
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5624,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:33.302Z",
+      "allocatedBytes": 1257881600,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1976,
+          "rssBytes": 244080640
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1946,
+          "rssBytes": 198508544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2116,
+          "rssBytes": 224714752
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5695,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:34.303Z",
+      "allocatedBytes": 1257889792,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 1988,
+          "rssBytes": 238673920
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1957,
+          "rssBytes": 198508544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2131,
+          "rssBytes": 213286912
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5770,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:35.305Z",
+      "allocatedBytes": 1257889792,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2001,
+          "rssBytes": 238673920
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1968,
+          "rssBytes": 198508544
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2144,
+          "rssBytes": 213286912
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5845,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:36.305Z",
+      "allocatedBytes": 1257889792,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2013,
+          "rssBytes": 234283008
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1980,
+          "rssBytes": 198639616
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2158,
+          "rssBytes": 209108992
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5918,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:37.307Z",
+      "allocatedBytes": 1257963520,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2026,
+          "rssBytes": 233947136
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 1993,
+          "rssBytes": 198639616
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2173,
+          "rssBytes": 207020032
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 5988,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:38.307Z",
+      "allocatedBytes": 1257996288,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2038,
+          "rssBytes": 233947136
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2005,
+          "rssBytes": 198639616
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2189,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6058,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:39.309Z",
+      "allocatedBytes": 1258000384,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2048,
+          "rssBytes": 233947136
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2017,
+          "rssBytes": 198639616
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2203,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6128,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:40.309Z",
+      "allocatedBytes": 1258004480,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2060,
+          "rssBytes": 233639936
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2030,
+          "rssBytes": 198639616
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2218,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6198,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:41.310Z",
+      "allocatedBytes": 1258004480,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2072,
+          "rssBytes": 233639936
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2042,
+          "rssBytes": 198639616
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2233,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6269,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:42.311Z",
+      "allocatedBytes": 1258106880,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2084,
+          "rssBytes": 233619456
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2055,
+          "rssBytes": 198217728
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2249,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6338,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:43.312Z",
+      "allocatedBytes": 1258143744,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2096,
+          "rssBytes": 233619456
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2067,
+          "rssBytes": 198348800
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2264,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6411,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:44.313Z",
+      "allocatedBytes": 1258147840,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2107,
+          "rssBytes": 233750528
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2079,
+          "rssBytes": 198479872
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2278,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6484,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:45.313Z",
+      "allocatedBytes": 1258151936,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2118,
+          "rssBytes": 233750528
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2090,
+          "rssBytes": 198479872
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2293,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6558,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:46.315Z",
+      "allocatedBytes": 1258151936,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2129,
+          "rssBytes": 233881600
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2101,
+          "rssBytes": 198479872
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2307,
+          "rssBytes": 204505088
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6632,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:47.316Z",
+      "allocatedBytes": 1258225664,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2149,
+          "rssBytes": 332578816
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2120,
+          "rssBytes": 301764608
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2327,
+          "rssBytes": 308183040
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6697,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:48.317Z",
+      "allocatedBytes": 1258258432,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2166,
+          "rssBytes": 366354432
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2138,
+          "rssBytes": 344465408
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2346,
+          "rssBytes": 351567872
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6767,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:49.317Z",
+      "allocatedBytes": 1258262528,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2184,
+          "rssBytes": 423632896
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2155,
+          "rssBytes": 354033664
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2365,
+          "rssBytes": 363102208
+        },
+        {
+          "name": "benchmark",
+          "pid": 239630,
+          "cpuTicks": 6845,
+          "rssBytes": 349319168
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:50.233Z",
+      "allocatedBytes": 1258262528,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2200,
+          "rssBytes": 435183616
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2170,
+          "rssBytes": 377937920
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2381,
+          "rssBytes": 378699776
+        }
+      ]
+    },
+    {
+      "time": "2026-11-01T13:35:50.291Z",
+      "allocatedBytes": 1258270720,
+      "processes": [
+        {
+          "name": "fdb-0",
+          "pid": 239342,
+          "cpuTicks": 2200,
+          "rssBytes": 435183616
+        },
+        {
+          "name": "fdb-1",
+          "pid": 239343,
+          "cpuTicks": 2170,
+          "rssBytes": 377937920
+        },
+        {
+          "name": "fdb-2",
+          "pid": 239344,
+          "cpuTicks": 2381,
+          "rssBytes": 378699776
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "statusBefore": {
+    "client": {
+      "cluster_file": {
+        "path": "/tmp/rebase-parallel-read-study/fdb.cluster",
+        "up_to_date": true
+      },
+      "coordinators": {
+        "coordinators": [
+          {
+            "address": "127.0.0.1:40067",
+            "protocol": "0fdb00b073000000",
+            "reachable": true
+          }
+        ],
+        "quorum_reachable": true
+      },
+      "database_status": {
+        "available": true,
+        "healthy": true
+      },
+      "messages": [],
+      "timestamp": 1793539973
+    },
+    "cluster": {
+      "active_primary_dc": "parallel_dc",
+      "active_tss_count": 0,
+      "bounce_impact": {
+        "can_clean_bounce": true
+      },
+      "clients": {
+        "count": 10,
+        "supported_versions": [
+          {
+            "client_version": "7.3.77",
+            "connected_clients": [
+              {
+                "address": "127.0.0.1:40176",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40186",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40192",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40202",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40208",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40210",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40224",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53034",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53040",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53050",
+                "log_group": "default"
+              }
+            ],
+            "count": 10,
+            "max_protocol_clients": [
+              {
+                "address": "127.0.0.1:40176",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40186",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40192",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40202",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40208",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40210",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40224",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53034",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53040",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53050",
+                "log_group": "default"
+              }
+            ],
+            "max_protocol_count": 10,
+            "protocol_version": "fdb00b073000000",
+            "source_version": "3ea44ce1d9003ad095e408039e1f755c319c4dfb"
+          }
+        ]
+      },
+      "cluster_controller_timestamp": 1793539973,
+      "configuration": {
+        "backup_worker_enabled": 0,
+        "blob_granules_enabled": 0,
+        "commit_proxies": 3,
+        "coordinators_count": 1,
+        "encryption_at_rest_mode": "disabled",
+        "excluded_servers": [],
+        "grv_proxies": 1,
+        "log_engine": "ssd-2",
+        "log_spill": 2,
+        "logs": 3,
+        "perpetual_storage_wiggle": 0,
+        "perpetual_storage_wiggle_engine": "none",
+        "perpetual_storage_wiggle_locality": "0",
+        "proxies": 4,
+        "redundancy_mode": "triple",
+        "resolvers": 1,
+        "storage_engine": "ssd-2",
+        "storage_migration_type": "disabled",
+        "tenant_mode": "disabled",
+        "usable_regions": 1
+      },
+      "configuration_database": {
+        "commits": [],
+        "last_compacted_version": 0,
+        "most_recent_version": 0,
+        "mutations": [],
+        "snapshot": {}
+      },
+      "connection_string": "parallelread:parallelread@127.0.0.1:40067",
+      "data": {
+        "least_operating_space_bytes_log_server": 15158353901,
+        "least_operating_space_bytes_storage_server": 15158354940,
+        "state": {
+          "description": "(Re)initializing automatic data distribution",
+          "name": "initializing"
+        },
+        "total_disk_used_bytes": 629219952
+      },
+      "database_available": true,
+      "database_lock_state": {
+        "locked": false
+      },
+      "datacenter_lag": {
+        "seconds": 0,
+        "versions": 0
+      },
+      "degraded_processes": 0,
+      "fault_tolerance": {
+        "max_zone_failures_without_losing_availability": 0,
+        "max_zone_failures_without_losing_data": 0
+      },
+      "full_replication": true,
+      "generation": 4,
+      "idempotency_ids": {
+        "size_bytes": 0
+      },
+      "incompatible_connections": [],
+      "latency_probe": {
+        "batch_priority_transaction_start_seconds": 0.000222683,
+        "commit_seconds": 0.00113153,
+        "immediate_priority_transaction_start_seconds": 0.00033831599999999996,
+        "read_seconds": 0.0000226498,
+        "transaction_start_seconds": 0.000447035
+      },
+      "layers": {
+        "_valid": true
+      },
+      "logs": [
+        {
+          "begin_version": 78482,
+          "current": true,
+          "epoch": 4,
+          "log_fault_tolerance": 2,
+          "log_interfaces": [
+            {
+              "address": "127.0.0.1:33681",
+              "healthy": true,
+              "id": "d4807c1d8f883725"
+            },
+            {
+              "address": "127.0.0.1:40067",
+              "healthy": true,
+              "id": "42e6caa3061381bf"
+            },
+            {
+              "address": "127.0.0.1:38071",
+              "healthy": true,
+              "id": "cfe34ec090bfe3d8"
+            }
+          ],
+          "log_replication_factor": 3,
+          "log_write_anti_quorum": 0,
+          "possibly_losing_data": false
+        }
+      ],
+      "lowest_compatible_protocol_version": "fdb00b072000000",
+      "machines": {
+        "parallel_machine_0": {
+          "address": "127.0.0.1",
+          "contributing_workers": 1,
+          "cpu": {
+            "logical_core_utilization": 0.009214739999999999
+          },
+          "datacenter_id": "parallel_dc",
+          "excluded": false,
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_0",
+            "processid": "b434747f56381db74d82133942129fee",
+            "zoneid": "parallel_zone_0"
+          },
+          "machine_id": "parallel_machine_0",
+          "memory": {
+            "committed_bytes": 2871640064,
+            "free_bytes": 32872120320,
+            "total_bytes": 35743760384
+          },
+          "network": {
+            "megabits_received": {
+              "hz": 1.07248
+            },
+            "megabits_sent": {
+              "hz": 1.07248
+            },
+            "tcp_segments_retransmitted": {
+              "hz": 0
+            }
+          }
+        },
+        "parallel_machine_1": {
+          "address": "127.0.0.1",
+          "contributing_workers": 1,
+          "cpu": {
+            "logical_core_utilization": 0.009214739999999999
+          },
+          "datacenter_id": "parallel_dc",
+          "excluded": false,
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_1",
+            "processid": "e29eb3d879b09e72106d6bebfe91e731",
+            "zoneid": "parallel_zone_1"
+          },
+          "machine_id": "parallel_machine_1",
+          "memory": {
+            "committed_bytes": 2871640064,
+            "free_bytes": 32872120320,
+            "total_bytes": 35743760384
+          },
+          "network": {
+            "megabits_received": {
+              "hz": 1.07248
+            },
+            "megabits_sent": {
+              "hz": 1.07248
+            },
+            "tcp_segments_retransmitted": {
+              "hz": 0
+            }
+          }
+        },
+        "parallel_machine_2": {
+          "address": "127.0.0.1",
+          "contributing_workers": 1,
+          "cpu": {
+            "logical_core_utilization": 0.009214739999999999
+          },
+          "datacenter_id": "parallel_dc",
+          "excluded": false,
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_2",
+            "processid": "a1313110f2d280887b251f8b483b480d",
+            "zoneid": "parallel_zone_2"
+          },
+          "machine_id": "parallel_machine_2",
+          "memory": {
+            "committed_bytes": 2871640064,
+            "free_bytes": 32872120320,
+            "total_bytes": 35743760384
+          },
+          "network": {
+            "megabits_received": {
+              "hz": 1.07248
+            },
+            "megabits_sent": {
+              "hz": 1.07248
+            },
+            "tcp_segments_retransmitted": {
+              "hz": 0
+            }
+          }
+        }
+      },
+      "messages": [],
+      "metacluster": {
+        "cluster_type": "standalone"
+      },
+      "newest_protocol_version": "fdb00b073000000",
+      "page_cache": {
+        "log_hit_rate": 0.958763,
+        "storage_hit_rate": 0.958763
+      },
+      "processes": {
+        "a1313110f2d280887b251f8b483b480d": {
+          "address": "127.0.0.1:33681",
+          "class_source": "command_line",
+          "class_type": "unset",
+          "command_line": "/workspace/ReBase/rebase-next/target/g7-environment/upgrade-7.3.77/usr/sbin/fdbserver -C /tmp/rebase-parallel-read-study/fdb.cluster -p 127.0.0.1:33681 -m 1024 --cache-memory 64 --storage-memory 64 -d /tmp/rebase-parallel-read-study/data-2 -L /tmp/rebase-parallel-read-study/logs-2 --locality-dcid parallel_dc --locality-zoneid parallel_zone_2 --locality-machineid parallel_machine_2",
+          "cpu": {
+            "usage_cores": 0.015421
+          },
+          "disk": {
+            "busy": 0,
+            "free_bytes": 16051929088,
+            "reads": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            },
+            "total_bytes": 17871880192,
+            "writes": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            }
+          },
+          "excluded": false,
+          "fault_domain": "parallel_zone_2",
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_2",
+            "processid": "a1313110f2d280887b251f8b483b480d",
+            "zoneid": "parallel_zone_2"
+          },
+          "machine_id": "parallel_machine_2",
+          "memory": {
+            "available_bytes": 1073741824,
+            "limit_bytes": 1073741824,
+            "rss_bytes": 83410944,
+            "unused_allocated_memory": 0,
+            "used_bytes": 244912128
+          },
+          "messages": [],
+          "network": {
+            "connection_errors": {
+              "hz": 0
+            },
+            "connections_closed": {
+              "hz": 0.999998
+            },
+            "connections_established": {
+              "hz": 0.7999980000000001
+            },
+            "current_connections": 2,
+            "megabits_received": {
+              "hz": 0.181683
+            },
+            "megabits_sent": {
+              "hz": 0.32994500000000004
+            },
+            "tls_policy_failures": {
+              "hz": 0
+            }
+          },
+          "roles": [
+            {
+              "id": "4fabcea538f29191",
+              "role": "master"
+            },
+            {
+              "id": "1c3402192aff5e8a",
+              "role": "data_distributor"
+            },
+            {
+              "id": "8e792e28f1f97765",
+              "role": "ratekeeper"
+            },
+            {
+              "id": "25047a5b36327f31",
+              "role": "consistency_scan"
+            },
+            {
+              "id": "841a80745abcf697",
+              "role": "grv_proxy"
+            },
+            {
+              "data_version": 109608617,
+              "durable_bytes": {
+                "counter": 1530,
+                "hz": 305.999,
+                "roughness": 1528.89
+              },
+              "id": "d4807c1d8f883725",
+              "input_bytes": {
+                "counter": 6622,
+                "hz": 63.1997,
+                "roughness": 315
+              },
+              "kvstore_available_bytes": 16051900416,
+              "kvstore_free_bytes": 16051900416,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_used_bytes": 104861752,
+              "queue_disk_available_bytes": 16051900416,
+              "queue_disk_free_bytes": 16051900416,
+              "queue_disk_total_bytes": 17871880192,
+              "queue_disk_used_bytes": 159744,
+              "role": "log"
+            },
+            {
+              "bytes_queried": {
+                "counter": 40532,
+                "hz": 4437.18,
+                "roughness": 4391.06
+              },
+              "data_lag": {
+                "seconds": 1.06431,
+                "versions": 1064306
+              },
+              "data_version": 109207751,
+              "durability_lag": {
+                "seconds": 5,
+                "versions": 5000000
+              },
+              "durable_bytes": {
+                "counter": 83176,
+                "hz": 8886.35,
+                "roughness": 33625.5
+              },
+              "durable_version": 104207751,
+              "fetched_versions": {
+                "counter": 109207751,
+                "hz": 1058690,
+                "roughness": 1058700
+              },
+              "fetches_from_logs": {
+                "counter": 18,
+                "hz": 0.999994,
+                "roughness": 0.0000120417
+              },
+              "finished_queries": {
+                "counter": 136,
+                "hz": 9.39995,
+                "roughness": 3.4926500000000003
+              },
+              "id": "9a69e8f57ed1ca3e",
+              "input_bytes": {
+                "counter": 83176,
+                "hz": 0,
+                "roughness": -1
+              },
+              "keys_queried": {
+                "counter": 144,
+                "hz": 12.1999,
+                "roughness": 11.0759
+              },
+              "kvstore_available_bytes": 16051998720,
+              "kvstore_free_bytes": 16051998720,
+              "kvstore_inline_keys": 0,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_total_nodes": 0,
+              "kvstore_total_size": 0,
+              "kvstore_used_bytes": 104878232,
+              "local_rate": 100,
+              "low_priority_queries": {
+                "counter": 0,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutation_bytes": {
+                "counter": 8796,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutations": {
+                "counter": 77,
+                "hz": 0,
+                "roughness": -1
+              },
+              "query_queue_max": 3,
+              "role": "storage",
+              "storage_metadata": {
+                "created_time_datetime": "2026-11-01 13:32:41.790 +0000",
+                "created_time_timestamp": 1793539961.7902825,
+                "storage_engine": "ssd-2"
+              },
+              "stored_bytes": 0,
+              "total_queries": {
+                "counter": 136,
+                "hz": 9.39995,
+                "roughness": 3.4926500000000003
+              },
+              "tss": false
+            }
+          ],
+          "run_loop_busy": 0.0105123,
+          "uptime_seconds": 15,
+          "version": "7.3.77"
+        },
+        "b434747f56381db74d82133942129fee": {
+          "address": "127.0.0.1:40067",
+          "class_source": "command_line",
+          "class_type": "unset",
+          "command_line": "/workspace/ReBase/rebase-next/target/g7-environment/upgrade-7.3.77/usr/sbin/fdbserver -C /tmp/rebase-parallel-read-study/fdb.cluster -p 127.0.0.1:40067 -m 1024 --cache-memory 64 --storage-memory 64 -d /tmp/rebase-parallel-read-study/data-0 -L /tmp/rebase-parallel-read-study/logs-0 --locality-dcid parallel_dc --locality-zoneid parallel_zone_0 --locality-machineid parallel_machine_0",
+          "cpu": {
+            "usage_cores": 0.0101697
+          },
+          "disk": {
+            "busy": 0,
+            "free_bytes": 16051929088,
+            "reads": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            },
+            "total_bytes": 17871880192,
+            "writes": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            }
+          },
+          "excluded": false,
+          "fault_domain": "parallel_zone_0",
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_0",
+            "processid": "b434747f56381db74d82133942129fee",
+            "zoneid": "parallel_zone_0"
+          },
+          "machine_id": "parallel_machine_0",
+          "memory": {
+            "available_bytes": 1073741824,
+            "limit_bytes": 1073741824,
+            "rss_bytes": 85749760,
+            "unused_allocated_memory": 131072,
+            "used_bytes": 232325120
+          },
+          "messages": [],
+          "network": {
+            "connection_errors": {
+              "hz": 0
+            },
+            "connections_closed": {
+              "hz": 0.9999950000000001
+            },
+            "connections_established": {
+              "hz": 0.7999959999999999
+            },
+            "current_connections": 2,
+            "megabits_received": {
+              "hz": 0.45446200000000003
+            },
+            "megabits_sent": {
+              "hz": 0.313579
+            },
+            "tls_policy_failures": {
+              "hz": 0
+            }
+          },
+          "roles": [
+            {
+              "id": "242132349c0a3e79",
+              "role": "cluster_controller"
+            },
+            {
+              "role": "coordinator"
+            },
+            {
+              "data_version": 109608617,
+              "durable_bytes": {
+                "counter": 1530,
+                "hz": 305.998,
+                "roughness": 1528.78
+              },
+              "id": "42e6caa3061381bf",
+              "input_bytes": {
+                "counter": 6622,
+                "hz": 63.1996,
+                "roughness": 315
+              },
+              "kvstore_available_bytes": 16051900416,
+              "kvstore_free_bytes": 16051900416,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_used_bytes": 104861752,
+              "queue_disk_available_bytes": 16051900416,
+              "queue_disk_free_bytes": 16051900416,
+              "queue_disk_total_bytes": 17871880192,
+              "queue_disk_used_bytes": 159744,
+              "role": "log"
+            },
+            {
+              "bytes_queried": {
+                "counter": 10716,
+                "hz": 468.997,
+                "roughness": 465.41
+              },
+              "data_lag": {
+                "seconds": 1.06431,
+                "versions": 1064306
+              },
+              "data_version": 109207751,
+              "durability_lag": {
+                "seconds": 5,
+                "versions": 5000000
+              },
+              "durable_bytes": {
+                "counter": 83176,
+                "hz": 8886.35,
+                "roughness": 33633.5
+              },
+              "durable_version": 104207751,
+              "fetched_versions": {
+                "counter": 109207751,
+                "hz": 1058690,
+                "roughness": 1058710
+              },
+              "fetches_from_logs": {
+                "counter": 23,
+                "hz": 0.999994,
+                "roughness": 0.000013493800000000001
+              },
+              "finished_queries": {
+                "counter": 193,
+                "hz": 15.3999,
+                "roughness": 12.723700000000001
+              },
+              "id": "59a53611afccf852",
+              "input_bytes": {
+                "counter": 83176,
+                "hz": 0,
+                "roughness": -1
+              },
+              "keys_queried": {
+                "counter": 128,
+                "hz": 8.99995,
+                "roughness": 7.95031
+              },
+              "kvstore_available_bytes": 16051998720,
+              "kvstore_free_bytes": 16051998720,
+              "kvstore_inline_keys": 0,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_total_nodes": 0,
+              "kvstore_total_size": 0,
+              "kvstore_used_bytes": 104878232,
+              "local_rate": 100,
+              "low_priority_queries": {
+                "counter": 0,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutation_bytes": {
+                "counter": 8796,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutations": {
+                "counter": 77,
+                "hz": 0,
+                "roughness": -1
+              },
+              "query_queue_max": 7,
+              "role": "storage",
+              "storage_metadata": {
+                "created_time_datetime": "2026-11-01 13:32:41.790 +0000",
+                "created_time_timestamp": 1793539961.7902825,
+                "storage_engine": "ssd-2"
+              },
+              "stored_bytes": 0,
+              "total_queries": {
+                "counter": 193,
+                "hz": 15.3999,
+                "roughness": 12.723700000000001
+              },
+              "tss": false
+            },
+            {
+              "id": "a17c74deda628df6",
+              "role": "resolver"
+            }
+          ],
+          "run_loop_busy": 0.0073691999999999985,
+          "uptime_seconds": 15,
+          "version": "7.3.77"
+        },
+        "e29eb3d879b09e72106d6bebfe91e731": {
+          "address": "127.0.0.1:38071",
+          "class_source": "command_line",
+          "class_type": "unset",
+          "command_line": "/workspace/ReBase/rebase-next/target/g7-environment/upgrade-7.3.77/usr/sbin/fdbserver -C /tmp/rebase-parallel-read-study/fdb.cluster -p 127.0.0.1:38071 -m 1024 --cache-memory 64 --storage-memory 64 -d /tmp/rebase-parallel-read-study/data-1 -L /tmp/rebase-parallel-read-study/logs-1 --locality-dcid parallel_dc --locality-zoneid parallel_zone_1 --locality-machineid parallel_machine_1",
+          "cpu": {
+            "usage_cores": 0.0069755699999999995
+          },
+          "disk": {
+            "busy": 0,
+            "free_bytes": 16051929088,
+            "reads": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            },
+            "total_bytes": 17871880192,
+            "writes": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            }
+          },
+          "excluded": false,
+          "fault_domain": "parallel_zone_1",
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_1",
+            "processid": "e29eb3d879b09e72106d6bebfe91e731",
+            "zoneid": "parallel_zone_1"
+          },
+          "machine_id": "parallel_machine_1",
+          "memory": {
+            "available_bytes": 1073741824,
+            "limit_bytes": 1073741824,
+            "rss_bytes": 80891904,
+            "unused_allocated_memory": 131072,
+            "used_bytes": 244912128
+          },
+          "messages": [],
+          "network": {
+            "connection_errors": {
+              "hz": 0
+            },
+            "connections_closed": {
+              "hz": 0
+            },
+            "connections_established": {
+              "hz": 0
+            },
+            "current_connections": 2,
+            "megabits_received": {
+              "hz": 0.0895229
+            },
+            "megabits_sent": {
+              "hz": 0.243225
+            },
+            "tls_policy_failures": {
+              "hz": 0
+            }
+          },
+          "roles": [
+            {
+              "id": "54783ec7f8bbda17",
+              "role": "commit_proxy"
+            },
+            {
+              "data_version": 109608617,
+              "durable_bytes": {
+                "counter": 1530,
+                "hz": 305.999,
+                "roughness": 1528.72
+              },
+              "id": "cfe34ec090bfe3d8",
+              "input_bytes": {
+                "counter": 6622,
+                "hz": 63.1997,
+                "roughness": 315
+              },
+              "kvstore_available_bytes": 16051900416,
+              "kvstore_free_bytes": 16051900416,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_used_bytes": 104861752,
+              "queue_disk_available_bytes": 16051900416,
+              "queue_disk_free_bytes": 16051900416,
+              "queue_disk_total_bytes": 17871880192,
+              "queue_disk_used_bytes": 159744,
+              "role": "log"
+            },
+            {
+              "bytes_queried": {
+                "counter": 4001,
+                "hz": 0,
+                "roughness": -1
+              },
+              "data_lag": {
+                "seconds": 1.06431,
+                "versions": 1064306
+              },
+              "data_version": 109207751,
+              "durability_lag": {
+                "seconds": 5,
+                "versions": 5000000
+              },
+              "durable_bytes": {
+                "counter": 83176,
+                "hz": 8886.35,
+                "roughness": 33634.1
+              },
+              "durable_version": 104207751,
+              "fetched_versions": {
+                "counter": 109207751,
+                "hz": 1058690,
+                "roughness": 1058710
+              },
+              "fetches_from_logs": {
+                "counter": 23,
+                "hz": 0.9999950000000001,
+                "roughness": 0.0000136365
+              },
+              "finished_queries": {
+                "counter": 41,
+                "hz": 0.599997,
+                "roughness": 2
+              },
+              "id": "78fa71967b6d737d",
+              "input_bytes": {
+                "counter": 83176,
+                "hz": 0,
+                "roughness": -1
+              },
+              "keys_queried": {
+                "counter": 55,
+                "hz": 0,
+                "roughness": -1
+              },
+              "kvstore_available_bytes": 16051998720,
+              "kvstore_free_bytes": 16051998720,
+              "kvstore_inline_keys": 0,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_total_nodes": 0,
+              "kvstore_total_size": 0,
+              "kvstore_used_bytes": 104878232,
+              "local_rate": 100,
+              "low_priority_queries": {
+                "counter": 0,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutation_bytes": {
+                "counter": 8796,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutations": {
+                "counter": 77,
+                "hz": 0,
+                "roughness": -1
+              },
+              "query_queue_max": 3,
+              "role": "storage",
+              "storage_metadata": {
+                "created_time_datetime": "2026-11-01 13:32:41.790 +0000",
+                "created_time_timestamp": 1793539961.7902825,
+                "storage_engine": "ssd-2"
+              },
+              "stored_bytes": 0,
+              "total_queries": {
+                "counter": 41,
+                "hz": 0.599997,
+                "roughness": 2
+              },
+              "tss": false
+            }
+          ],
+          "run_loop_busy": 0.0047522400000000005,
+          "uptime_seconds": 15,
+          "version": "7.3.77"
+        }
+      },
+      "protocol_version": "fdb00b073000000",
+      "qos": {
+        "batch_performance_limited_by": {
+          "description": "The database is not being saturated by the workload.",
+          "name": "workload",
+          "reason_id": 2
+        },
+        "batch_released_transactions_per_second": 1.22679,
+        "batch_transactions_per_second_limit": 2737500,
+        "limiting_data_lag_storage_server": {
+          "seconds": 0,
+          "versions": 0
+        },
+        "limiting_durability_lag_storage_server": {
+          "seconds": 8.2839,
+          "versions": 8283904
+        },
+        "limiting_queue_bytes_storage_server": 2938,
+        "performance_limited_by": {
+          "description": "The database is not being saturated by the workload.",
+          "name": "workload",
+          "reason_id": 2
+        },
+        "released_transactions_per_second": 20.64,
+        "throttled_tags": {
+          "auto": {
+            "busy_read": 0,
+            "busy_write": 0,
+            "count": 0,
+            "recommended_only": 0
+          },
+          "manual": {
+            "count": 0
+          }
+        },
+        "transactions_per_second_limit": 3150000,
+        "worst_data_lag_storage_server": {
+          "seconds": 0,
+          "versions": 0
+        },
+        "worst_durability_lag_storage_server": {
+          "seconds": 8.43582,
+          "versions": 8435822
+        },
+        "worst_queue_bytes_log_server": 28406,
+        "worst_queue_bytes_storage_server": 2938
+      },
+      "recovery_state": {
+        "active_generations": 1,
+        "description": "Recovery complete.",
+        "name": "fully_recovered",
+        "seconds_since_last_recovered": 10.5026
+      },
+      "tenants": {
+        "num_tenants": 0
+      },
+      "version_epoch": {
+        "enabled": false
+      },
+      "workload": {
+        "bytes": {
+          "read": {
+            "counter": 55249,
+            "hz": 4906.18,
+            "roughness": 4015.79
+          },
+          "written": {
+            "counter": 1313,
+            "hz": 13.9999,
+            "roughness": 69
+          }
+        },
+        "keys": {
+          "read": {
+            "counter": 327,
+            "hz": 21.1998,
+            "roughness": 9.749
+          }
+        },
+        "operations": {
+          "location_requests": {
+            "counter": 13,
+            "hz": 0,
+            "roughness": 0
+          },
+          "low_priority_reads": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "memory_errors": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "read_requests": {
+            "counter": 370,
+            "hz": 25.3998,
+            "roughness": 9.05417
+          },
+          "reads": {
+            "counter": 370,
+            "hz": 25.3998,
+            "roughness": 9.05417
+          },
+          "writes": {
+            "counter": 19,
+            "hz": 0.399998,
+            "roughness": 1
+          }
+        },
+        "transactions": {
+          "committed": {
+            "counter": 18,
+            "hz": 0.9999950000000001,
+            "roughness": 0.0804961
+          },
+          "conflicted": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "rejected_for_queued_too_long": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "started": {
+            "counter": 190,
+            "hz": 15.1999,
+            "roughness": 6.07941
+          },
+          "started_batch_priority": {
+            "counter": 9,
+            "hz": 0.7999969999999998,
+            "roughness": 0.0000143889
+          },
+          "started_default_priority": {
+            "counter": 64,
+            "hz": 4.59998,
+            "roughness": 2.66979
+          },
+          "started_immediate_priority": {
+            "counter": 117,
+            "hz": 9.79996,
+            "roughness": 4.38257
+          }
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "code": 0,
+    "signal": null
+  },
+  "statusAfter": {
+    "client": {
+      "cluster_file": {
+        "path": "/tmp/rebase-parallel-read-study/fdb.cluster",
+        "up_to_date": true
+      },
+      "coordinators": {
+        "coordinators": [
+          {
+            "address": "127.0.0.1:40067",
+            "protocol": "0fdb00b073000000",
+            "reachable": true
+          }
+        ],
+        "quorum_reachable": true
+      },
+      "database_status": {
+        "available": true,
+        "healthy": true
+      },
+      "messages": [],
+      "timestamp": 1793540150
+    },
+    "cluster": {
+      "active_primary_dc": "parallel_dc",
+      "active_tss_count": 0,
+      "bounce_impact": {
+        "can_clean_bounce": true
+      },
+      "clients": {
+        "count": 12,
+        "supported_versions": [
+          {
+            "client_version": "7.3.77",
+            "connected_clients": [
+              {
+                "address": "127.0.0.1:40176",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40186",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40192",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40202",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40208",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40210",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40224",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:43528",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53034",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53040",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53050",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53052",
+                "log_group": "default"
+              }
+            ],
+            "count": 12,
+            "max_protocol_clients": [
+              {
+                "address": "127.0.0.1:40176",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40186",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40192",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40202",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40208",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40210",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:40224",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:43528",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53034",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53040",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53050",
+                "log_group": "default"
+              },
+              {
+                "address": "127.0.0.1:53052",
+                "log_group": "default"
+              }
+            ],
+            "max_protocol_count": 12,
+            "protocol_version": "fdb00b073000000",
+            "source_version": "3ea44ce1d9003ad095e408039e1f755c319c4dfb"
+          }
+        ]
+      },
+      "cluster_controller_timestamp": 1793540150,
+      "configuration": {
+        "backup_worker_enabled": 0,
+        "blob_granules_enabled": 0,
+        "commit_proxies": 3,
+        "coordinators_count": 1,
+        "encryption_at_rest_mode": "disabled",
+        "excluded_servers": [],
+        "grv_proxies": 1,
+        "log_engine": "ssd-2",
+        "log_spill": 2,
+        "logs": 3,
+        "perpetual_storage_wiggle": 0,
+        "perpetual_storage_wiggle_engine": "none",
+        "perpetual_storage_wiggle_locality": "0",
+        "proxies": 4,
+        "redundancy_mode": "triple",
+        "resolvers": 1,
+        "storage_engine": "ssd-2",
+        "storage_migration_type": "disabled",
+        "tenant_mode": "disabled",
+        "usable_regions": 1
+      },
+      "configuration_database": {
+        "commits": [],
+        "last_compacted_version": 0,
+        "most_recent_version": 0,
+        "mutations": [],
+        "snapshot": {}
+      },
+      "connection_string": "parallelread:parallelread@127.0.0.1:40067",
+      "data": {
+        "average_partition_size_bytes": 21109880,
+        "least_operating_space_bytes_log_server": 14530813200,
+        "least_operating_space_bytes_storage_server": 14530813097,
+        "moving_data": {
+          "highest_priority": 0,
+          "in_flight_bytes": 0,
+          "in_queue_bytes": 0,
+          "total_written_bytes": 118492241
+        },
+        "partitions_count": 9,
+        "state": {
+          "healthy": true,
+          "min_replicas_remaining": 3,
+          "name": "healthy"
+        },
+        "system_kv_size_bytes": 0,
+        "team_trackers": [
+          {
+            "in_flight_bytes": 0,
+            "primary": true,
+            "state": {
+              "healthy": true,
+              "min_replicas_remaining": 3,
+              "name": "healthy"
+            },
+            "unhealthy_servers": 0
+          }
+        ],
+        "total_disk_used_bytes": 1053747312,
+        "total_kv_size_bytes": 152093943
+      },
+      "database_available": true,
+      "database_lock_state": {
+        "locked": false
+      },
+      "datacenter_lag": {
+        "seconds": 0,
+        "versions": 0
+      },
+      "degraded_processes": 0,
+      "fault_tolerance": {
+        "max_zone_failures_without_losing_availability": 0,
+        "max_zone_failures_without_losing_data": 0
+      },
+      "full_replication": true,
+      "generation": 4,
+      "idempotency_ids": {
+        "size_bytes": 0
+      },
+      "incompatible_connections": [],
+      "latency_probe": {
+        "batch_priority_transaction_start_seconds": 0.000295877,
+        "commit_seconds": 0.00130177,
+        "immediate_priority_transaction_start_seconds": 0.00026226,
+        "read_seconds": 0.0000324249,
+        "transaction_start_seconds": 0.00036930999999999997
+      },
+      "layers": {
+        "_valid": true
+      },
+      "logs": [
+        {
+          "begin_version": 78482,
+          "current": true,
+          "epoch": 4,
+          "log_fault_tolerance": 2,
+          "log_interfaces": [
+            {
+              "address": "127.0.0.1:33681",
+              "healthy": true,
+              "id": "d4807c1d8f883725"
+            },
+            {
+              "address": "127.0.0.1:40067",
+              "healthy": true,
+              "id": "42e6caa3061381bf"
+            },
+            {
+              "address": "127.0.0.1:38071",
+              "healthy": true,
+              "id": "cfe34ec090bfe3d8"
+            }
+          ],
+          "log_replication_factor": 3,
+          "log_write_anti_quorum": 0,
+          "possibly_losing_data": false
+        }
+      ],
+      "lowest_compatible_protocol_version": "fdb00b072000000",
+      "machines": {
+        "parallel_machine_0": {
+          "address": "127.0.0.1",
+          "contributing_workers": 1,
+          "cpu": {
+            "logical_core_utilization": 0.203911
+          },
+          "datacenter_id": "parallel_dc",
+          "excluded": false,
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_0",
+            "processid": "b434747f56381db74d82133942129fee",
+            "zoneid": "parallel_zone_0"
+          },
+          "machine_id": "parallel_machine_0",
+          "memory": {
+            "committed_bytes": 4453429248,
+            "free_bytes": 31290331136,
+            "total_bytes": 35743760384
+          },
+          "network": {
+            "megabits_received": {
+              "hz": 85.2762
+            },
+            "megabits_sent": {
+              "hz": 85.2762
+            },
+            "tcp_segments_retransmitted": {
+              "hz": 0
+            }
+          }
+        },
+        "parallel_machine_1": {
+          "address": "127.0.0.1",
+          "contributing_workers": 1,
+          "cpu": {
+            "logical_core_utilization": 0.203911
+          },
+          "datacenter_id": "parallel_dc",
+          "excluded": false,
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_1",
+            "processid": "e29eb3d879b09e72106d6bebfe91e731",
+            "zoneid": "parallel_zone_1"
+          },
+          "machine_id": "parallel_machine_1",
+          "memory": {
+            "committed_bytes": 4453429248,
+            "free_bytes": 31290331136,
+            "total_bytes": 35743760384
+          },
+          "network": {
+            "megabits_received": {
+              "hz": 85.2809
+            },
+            "megabits_sent": {
+              "hz": 85.2809
+            },
+            "tcp_segments_retransmitted": {
+              "hz": 0
+            }
+          }
+        },
+        "parallel_machine_2": {
+          "address": "127.0.0.1",
+          "contributing_workers": 1,
+          "cpu": {
+            "logical_core_utilization": 0.203827
+          },
+          "datacenter_id": "parallel_dc",
+          "excluded": false,
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_2",
+            "processid": "a1313110f2d280887b251f8b483b480d",
+            "zoneid": "parallel_zone_2"
+          },
+          "machine_id": "parallel_machine_2",
+          "memory": {
+            "committed_bytes": 4452782080,
+            "free_bytes": 31290978304,
+            "total_bytes": 35743760384
+          },
+          "network": {
+            "megabits_received": {
+              "hz": 85.1722
+            },
+            "megabits_sent": {
+              "hz": 85.1722
+            },
+            "tcp_segments_retransmitted": {
+              "hz": 0
+            }
+          }
+        }
+      },
+      "messages": [],
+      "metacluster": {
+        "cluster_type": "standalone"
+      },
+      "newest_protocol_version": "fdb00b073000000",
+      "page_cache": {
+        "log_hit_rate": 0.956897,
+        "storage_hit_rate": 0.956897
+      },
+      "processes": {
+        "a1313110f2d280887b251f8b483b480d": {
+          "address": "127.0.0.1:33681",
+          "class_source": "command_line",
+          "class_type": "unset",
+          "command_line": "/workspace/ReBase/rebase-next/target/g7-environment/upgrade-7.3.77/usr/sbin/fdbserver -C /tmp/rebase-parallel-read-study/fdb.cluster -p 127.0.0.1:33681 -m 1024 --cache-memory 64 --storage-memory 64 -d /tmp/rebase-parallel-read-study/data-2 -L /tmp/rebase-parallel-read-study/logs-2 --locality-dcid parallel_dc --locality-zoneid parallel_zone_2 --locality-machineid parallel_machine_2",
+          "cpu": {
+            "usage_cores": 0.15320799999999998
+          },
+          "disk": {
+            "busy": 0,
+            "free_bytes": 15424450560,
+            "reads": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            },
+            "total_bytes": 17871880192,
+            "writes": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            }
+          },
+          "excluded": false,
+          "fault_domain": "parallel_zone_2",
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_2",
+            "processid": "a1313110f2d280887b251f8b483b480d",
+            "zoneid": "parallel_zone_2"
+          },
+          "machine_id": "parallel_machine_2",
+          "memory": {
+            "available_bytes": 1073741824,
+            "limit_bytes": 1073741824,
+            "rss_bytes": 294371328,
+            "unused_allocated_memory": 28698976,
+            "used_bytes": 888999936
+          },
+          "messages": [],
+          "network": {
+            "connection_errors": {
+              "hz": 0
+            },
+            "connections_closed": {
+              "hz": 0
+            },
+            "connections_established": {
+              "hz": 0
+            },
+            "current_connections": 3,
+            "megabits_received": {
+              "hz": 9.83357
+            },
+            "megabits_sent": {
+              "hz": 18.272
+            },
+            "tls_policy_failures": {
+              "hz": 0
+            }
+          },
+          "roles": [
+            {
+              "id": "4fabcea538f29191",
+              "role": "master"
+            },
+            {
+              "id": "1c3402192aff5e8a",
+              "role": "data_distributor"
+            },
+            {
+              "id": "8e792e28f1f97765",
+              "role": "ratekeeper"
+            },
+            {
+              "id": "25047a5b36327f31",
+              "role": "consistency_scan"
+            },
+            {
+              "grv_latency_statistics": {
+                "batch": {
+                  "count": 0,
+                  "max": -1.7976900000000003e+308,
+                  "mean": 0,
+                  "median": 0,
+                  "min": 1.7976900000000003e+308,
+                  "p25": 0,
+                  "p90": 0,
+                  "p95": 0,
+                  "p99": 0,
+                  "p99.9": 0
+                },
+                "default": {
+                  "count": 3542,
+                  "max": 0.0045914599999999995,
+                  "mean": 0.000163171,
+                  "median": 0.000163171,
+                  "min": 0.000060558300000000006,
+                  "p25": 0.000118502,
+                  "p90": 0.00017589800000000002,
+                  "p95": 0.00022345499999999998,
+                  "p99": 0.0011781299999999999,
+                  "p99.9": 0.0022653
+                }
+              },
+              "id": "841a80745abcf697",
+              "role": "grv_proxy"
+            },
+            {
+              "data_version": 283722341,
+              "durable_bytes": {
+                "counter": 186052483,
+                "hz": 0,
+                "roughness": -1
+              },
+              "id": "d4807c1d8f883725",
+              "input_bytes": {
+                "counter": 186052799,
+                "hz": 0,
+                "roughness": -1
+              },
+              "kvstore_available_bytes": 15424421888,
+              "kvstore_free_bytes": 15424421888,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_used_bytes": 104882352,
+              "queue_disk_available_bytes": 15424421888,
+              "queue_disk_free_bytes": 15424421888,
+              "queue_disk_total_bytes": 17871880192,
+              "queue_disk_used_bytes": 66260992,
+              "role": "log"
+            },
+            {
+              "bytes_queried": {
+                "counter": 86104139,
+                "hz": 1498980,
+                "roughness": 941.351
+              },
+              "data_lag": {
+                "seconds": 1.98563,
+                "versions": 1985630
+              },
+              "data_version": 283722341,
+              "durability_lag": {
+                "seconds": 5,
+                "versions": 5000000
+              },
+              "durable_bytes": {
+                "counter": 561890972,
+                "hz": 0,
+                "roughness": -1
+              },
+              "durable_version": 278722341,
+              "fetched_versions": {
+                "counter": 283722341,
+                "hz": 858861,
+                "roughness": 1937660.0000000002
+              },
+              "fetches_from_logs": {
+                "counter": 712,
+                "hz": 0.599994,
+                "roughness": 0.35363500000000003
+              },
+              "finished_queries": {
+                "counter": 267853,
+                "hz": 2770.37,
+                "roughness": 0.7403179999999999
+              },
+              "id": "9a69e8f57ed1ca3e",
+              "input_bytes": {
+                "counter": 561892968,
+                "hz": 399.196,
+                "roughness": 1995
+              },
+              "keys_queried": {
+                "counter": 168241,
+                "hz": 2772.17,
+                "roughness": 0.7427549999999999
+              },
+              "kvstore_available_bytes": 15424495616,
+              "kvstore_free_bytes": 15424495616,
+              "kvstore_inline_keys": 0,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_total_nodes": 0,
+              "kvstore_total_size": 0,
+              "kvstore_used_bytes": 246461512,
+              "local_rate": 100,
+              "low_priority_queries": {
+                "counter": 0,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutation_bytes": {
+                "counter": 164414389,
+                "hz": 19.5998,
+                "roughness": 97
+              },
+              "mutations": {
+                "counter": 300349,
+                "hz": 0.399996,
+                "roughness": 1
+              },
+              "query_queue_max": 64,
+              "read_latency_statistics": {
+                "count": 181314,
+                "max": 0.00659633,
+                "mean": 0.00030083299999999997,
+                "median": 0.00030083299999999997,
+                "min": 0.000004768369999999999,
+                "p25": 0.000016351200000000004,
+                "p90": 0.000911691,
+                "p95": 0.00124984,
+                "p99": 0.00185959,
+                "p99.9": 0.00371926
+              },
+              "role": "storage",
+              "storage_metadata": {
+                "created_time_datetime": "2026-11-01 13:32:41.790 +0000",
+                "created_time_timestamp": 1793539961.7902825,
+                "storage_engine": "ssd-2"
+              },
+              "stored_bytes": 155822918,
+              "total_queries": {
+                "counter": 267853,
+                "hz": 2770.37,
+                "roughness": 0.97123
+              },
+              "tss": false
+            }
+          ],
+          "run_loop_busy": 0.120698,
+          "uptime_seconds": 190.001,
+          "version": "7.3.77"
+        },
+        "b434747f56381db74d82133942129fee": {
+          "address": "127.0.0.1:40067",
+          "class_source": "command_line",
+          "class_type": "unset",
+          "command_line": "/workspace/ReBase/rebase-next/target/g7-environment/upgrade-7.3.77/usr/sbin/fdbserver -C /tmp/rebase-parallel-read-study/fdb.cluster -p 127.0.0.1:40067 -m 1024 --cache-memory 64 --storage-memory 64 -d /tmp/rebase-parallel-read-study/data-0 -L /tmp/rebase-parallel-read-study/logs-0 --locality-dcid parallel_dc --locality-zoneid parallel_zone_0 --locality-machineid parallel_machine_0",
+          "cpu": {
+            "usage_cores": 0.12599300000000002
+          },
+          "disk": {
+            "busy": 0,
+            "free_bytes": 15424450560,
+            "reads": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            },
+            "total_bytes": 17871880192,
+            "writes": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            }
+          },
+          "excluded": false,
+          "fault_domain": "parallel_zone_0",
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_0",
+            "processid": "b434747f56381db74d82133942129fee",
+            "zoneid": "parallel_zone_0"
+          },
+          "machine_id": "parallel_machine_0",
+          "memory": {
+            "available_bytes": 1073741824,
+            "limit_bytes": 1073741824,
+            "rss_bytes": 318664704,
+            "unused_allocated_memory": 31582848,
+            "used_bytes": 890699776
+          },
+          "messages": [],
+          "network": {
+            "connection_errors": {
+              "hz": 0
+            },
+            "connections_closed": {
+              "hz": 0
+            },
+            "connections_established": {
+              "hz": 0
+            },
+            "current_connections": 3,
+            "megabits_received": {
+              "hz": 9.20889
+            },
+            "megabits_sent": {
+              "hz": 17.1839
+            },
+            "tls_policy_failures": {
+              "hz": 0
+            }
+          },
+          "roles": [
+            {
+              "id": "242132349c0a3e79",
+              "role": "cluster_controller"
+            },
+            {
+              "role": "coordinator"
+            },
+            {
+              "data_version": 283722341,
+              "durable_bytes": {
+                "counter": 186052483,
+                "hz": 0,
+                "roughness": -1
+              },
+              "id": "42e6caa3061381bf",
+              "input_bytes": {
+                "counter": 186052799,
+                "hz": 0,
+                "roughness": -1
+              },
+              "kvstore_available_bytes": 15424421888,
+              "kvstore_free_bytes": 15424421888,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_used_bytes": 104882352,
+              "queue_disk_available_bytes": 15424421888,
+              "queue_disk_free_bytes": 15424421888,
+              "queue_disk_total_bytes": 17871880192,
+              "queue_disk_used_bytes": 66260992,
+              "role": "log"
+            },
+            {
+              "bytes_queried": {
+                "counter": 85570292,
+                "hz": 1446880.0000000002,
+                "roughness": 999.945
+              },
+              "data_lag": {
+                "seconds": 1.98563,
+                "versions": 1985630
+              },
+              "data_version": 283722341,
+              "durability_lag": {
+                "seconds": 5,
+                "versions": 5000000
+              },
+              "durable_bytes": {
+                "counter": 561890972,
+                "hz": 0,
+                "roughness": -1
+              },
+              "durable_version": 278722341,
+              "fetched_versions": {
+                "counter": 283722341,
+                "hz": 858865,
+                "roughness": 1937640
+              },
+              "fetches_from_logs": {
+                "counter": 717,
+                "hz": 0.599997,
+                "roughness": 0.35362400000000005
+              },
+              "finished_queries": {
+                "counter": 266072,
+                "hz": 2633.99,
+                "roughness": 0.8220320000000001
+              },
+              "id": "59a53611afccf852",
+              "input_bytes": {
+                "counter": 561892968,
+                "hz": 399.198,
+                "roughness": 1995
+              },
+              "keys_queried": {
+                "counter": 165826,
+                "hz": 2633.19,
+                "roughness": 0.821627
+              },
+              "kvstore_available_bytes": 15424475136,
+              "kvstore_free_bytes": 15424475136,
+              "kvstore_inline_keys": 0,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_total_nodes": 0,
+              "kvstore_total_size": 0,
+              "kvstore_used_bytes": 246164872,
+              "local_rate": 100,
+              "low_priority_queries": {
+                "counter": 0,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutation_bytes": {
+                "counter": 164414389,
+                "hz": 19.5999,
+                "roughness": 97
+              },
+              "mutations": {
+                "counter": 300349,
+                "hz": 0.399998,
+                "roughness": 1
+              },
+              "query_queue_max": 64,
+              "read_latency_statistics": {
+                "count": 180124,
+                "max": 0.005933519999999999,
+                "mean": 0.000298624,
+                "median": 0.000298624,
+                "min": 0.0000045299500000000006,
+                "p25": 0.0000154052,
+                "p90": 0.000911691,
+                "p95": 0.00120155,
+                "p99": 0.0018962,
+                "p99.9": 0.00379248
+              },
+              "role": "storage",
+              "storage_metadata": {
+                "created_time_datetime": "2026-11-01 13:32:41.790 +0000",
+                "created_time_timestamp": 1793539961.7902825,
+                "storage_engine": "ssd-2"
+              },
+              "stored_bytes": 155822918,
+              "total_queries": {
+                "counter": 266072,
+                "hz": 2633.99,
+                "roughness": 1.07951
+              },
+              "tss": false
+            },
+            {
+              "id": "a17c74deda628df6",
+              "role": "resolver"
+            }
+          ],
+          "run_loop_busy": 0.100789,
+          "uptime_seconds": 190.003,
+          "version": "7.3.77"
+        },
+        "e29eb3d879b09e72106d6bebfe91e731": {
+          "address": "127.0.0.1:38071",
+          "class_source": "command_line",
+          "class_type": "unset",
+          "command_line": "/workspace/ReBase/rebase-next/target/g7-environment/upgrade-7.3.77/usr/sbin/fdbserver -C /tmp/rebase-parallel-read-study/fdb.cluster -p 127.0.0.1:38071 -m 1024 --cache-memory 64 --storage-memory 64 -d /tmp/rebase-parallel-read-study/data-1 -L /tmp/rebase-parallel-read-study/logs-1 --locality-dcid parallel_dc --locality-zoneid parallel_zone_1 --locality-machineid parallel_machine_1",
+          "cpu": {
+            "usage_cores": 0.125999
+          },
+          "disk": {
+            "busy": 0,
+            "free_bytes": 15424450560,
+            "reads": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            },
+            "total_bytes": 17871880192,
+            "writes": {
+              "counter": 0,
+              "hz": 0,
+              "sectors": 0
+            }
+          },
+          "excluded": false,
+          "fault_domain": "parallel_zone_1",
+          "locality": {
+            "dcid": "parallel_dc",
+            "machineid": "parallel_machine_1",
+            "processid": "e29eb3d879b09e72106d6bebfe91e731",
+            "zoneid": "parallel_zone_1"
+          },
+          "machine_id": "parallel_machine_1",
+          "memory": {
+            "available_bytes": 1073741824,
+            "limit_bytes": 1073741824,
+            "rss_bytes": 288522240,
+            "unused_allocated_memory": 27257536,
+            "used_bytes": 786370560
+          },
+          "messages": [],
+          "network": {
+            "connection_errors": {
+              "hz": 0
+            },
+            "connections_closed": {
+              "hz": 0
+            },
+            "connections_established": {
+              "hz": 0
+            },
+            "current_connections": 3,
+            "megabits_received": {
+              "hz": 8.93865
+            },
+            "megabits_sent": {
+              "hz": 16.7448
+            },
+            "tls_policy_failures": {
+              "hz": 0
+            }
+          },
+          "roles": [
+            {
+              "commit_batching_window_size": {
+                "count": 201,
+                "max": 0.001,
+                "mean": 0.001,
+                "median": 0.001,
+                "min": 0.001,
+                "p25": 0.0010059,
+                "p90": 0.0010059,
+                "p95": 0.0010059,
+                "p99": 0.0010059,
+                "p99.9": 0.0010059
+              },
+              "commit_latency_statistics": {
+                "count": 181,
+                "max": 0.00840044,
+                "mean": 0.00464035,
+                "median": 0.00464035,
+                "min": 0.000920057,
+                "p25": 0.00453071,
+                "p90": 0.00551881,
+                "p95": 0.00609616,
+                "p99": 0.0070109099999999995,
+                "p99.9": 0.0070109099999999995
+              },
+              "id": "54783ec7f8bbda17",
+              "role": "commit_proxy"
+            },
+            {
+              "data_version": 283722341,
+              "durable_bytes": {
+                "counter": 186052483,
+                "hz": 0,
+                "roughness": -1
+              },
+              "id": "cfe34ec090bfe3d8",
+              "input_bytes": {
+                "counter": 186052799,
+                "hz": 0,
+                "roughness": -1
+              },
+              "kvstore_available_bytes": 15424421888,
+              "kvstore_free_bytes": 15424421888,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_used_bytes": 104882352,
+              "queue_disk_available_bytes": 15424421888,
+              "queue_disk_free_bytes": 15424421888,
+              "queue_disk_total_bytes": 17871880192,
+              "queue_disk_used_bytes": 66260992,
+              "role": "log"
+            },
+            {
+              "bytes_queried": {
+                "counter": 82789085,
+                "hz": 1309390,
+                "roughness": 896.197
+              },
+              "data_lag": {
+                "seconds": 1.98563,
+                "versions": 1985630
+              },
+              "data_version": 283722341,
+              "durability_lag": {
+                "seconds": 5,
+                "versions": 5000000
+              },
+              "durable_bytes": {
+                "counter": 561890972,
+                "hz": 0,
+                "roughness": -1
+              },
+              "durable_version": 278722341,
+              "fetched_versions": {
+                "counter": 283722341,
+                "hz": 858860,
+                "roughness": 1937570
+              },
+              "fetches_from_logs": {
+                "counter": 717,
+                "hz": 0.599993,
+                "roughness": 0.353576
+              },
+              "finished_queries": {
+                "counter": 262430,
+                "hz": 2387.77,
+                "roughness": 0.635371
+              },
+              "id": "78fa71967b6d737d",
+              "input_bytes": {
+                "counter": 561892968,
+                "hz": 399.196,
+                "roughness": 1995
+              },
+              "keys_queried": {
+                "counter": 160490,
+                "hz": 2385.97,
+                "roughness": 0.6348750000000001
+              },
+              "kvstore_available_bytes": 15424495616,
+              "kvstore_free_bytes": 15424495616,
+              "kvstore_inline_keys": 0,
+              "kvstore_total_bytes": 17871880192,
+              "kvstore_total_nodes": 0,
+              "kvstore_total_size": 0,
+              "kvstore_used_bytes": 246473872,
+              "local_rate": 100,
+              "low_priority_queries": {
+                "counter": 0,
+                "hz": 0,
+                "roughness": -1
+              },
+              "mutation_bytes": {
+                "counter": 164414389,
+                "hz": 19.5998,
+                "roughness": 97
+              },
+              "mutations": {
+                "counter": 300349,
+                "hz": 0.399996,
+                "roughness": 1
+              },
+              "query_queue_max": 64,
+              "read_latency_statistics": {
+                "count": 177696,
+                "max": 0.0113852,
+                "mean": 0.00030453699999999996,
+                "median": 0.00030453699999999996,
+                "min": 0.000004768369999999999,
+                "p25": 0.0000154052,
+                "p90": 0.0008938609999999999,
+                "p95": 0.00120155,
+                "p99": 0.00201185,
+                "p99.9": 0.00453071
+              },
+              "role": "storage",
+              "storage_metadata": {
+                "created_time_datetime": "2026-11-01 13:32:41.790 +0000",
+                "created_time_timestamp": 1793539961.7902825,
+                "storage_engine": "ssd-2"
+              },
+              "stored_bytes": 155822918,
+              "total_queries": {
+                "counter": 262430,
+                "hz": 2387.77,
+                "roughness": 0.8213659999999999
+              },
+              "tss": false
+            }
+          ],
+          "run_loop_busy": 0.101447,
+          "uptime_seconds": 190.003,
+          "version": "7.3.77"
+        }
+      },
+      "protocol_version": "fdb00b073000000",
+      "qos": {
+        "batch_performance_limited_by": {
+          "description": "The database is not being saturated by the workload.",
+          "name": "workload",
+          "reason_id": 2
+        },
+        "batch_released_transactions_per_second": 1.42109e-14,
+        "batch_transactions_per_second_limit": 923567000.0000001,
+        "limiting_data_lag_storage_server": {
+          "seconds": 0,
+          "versions": 0
+        },
+        "limiting_durability_lag_storage_server": {
+          "seconds": 5.00006,
+          "versions": 5000060
+        },
+        "limiting_queue_bytes_storage_server": 607,
+        "performance_limited_by": {
+          "description": "The database is not being saturated by the workload.",
+          "name": "workload",
+          "reason_id": 2
+        },
+        "released_transactions_per_second": 7.11923,
+        "throttled_tags": {
+          "auto": {
+            "busy_read": 0,
+            "busy_write": 0,
+            "count": 0,
+            "recommended_only": 0
+          },
+          "manual": {
+            "count": 0
+          }
+        },
+        "transactions_per_second_limit": 632832000,
+        "worst_data_lag_storage_server": {
+          "seconds": 0,
+          "versions": 0
+        },
+        "worst_durability_lag_storage_server": {
+          "seconds": 5.00008,
+          "versions": 5000077
+        },
+        "worst_queue_bytes_log_server": 316,
+        "worst_queue_bytes_storage_server": 607
+      },
+      "recovery_state": {
+        "active_generations": 1,
+        "description": "Recovery complete.",
+        "name": "fully_recovered",
+        "seconds_since_last_recovered": 187.645
+      },
+      "tenants": {
+        "num_tenants": 0
+      },
+      "version_epoch": {
+        "enabled": false
+      },
+      "workload": {
+        "bytes": {
+          "read": {
+            "counter": 254463516,
+            "hz": 4255250,
+            "roughness": 947.38
+          },
+          "written": {
+            "counter": 160201988,
+            "hz": 0,
+            "roughness": 0
+          }
+        },
+        "keys": {
+          "read": {
+            "counter": 494557,
+            "hz": 7791.33,
+            "roughness": 0.7363739999999999
+          }
+        },
+        "operations": {
+          "location_requests": {
+            "counter": 79,
+            "hz": 0,
+            "roughness": 0
+          },
+          "low_priority_reads": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "memory_errors": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "read_requests": {
+            "counter": 796355,
+            "hz": 7792.13,
+            "roughness": 0.961909
+          },
+          "reads": {
+            "counter": 796355,
+            "hz": 7792.13,
+            "roughness": 0.735781
+          },
+          "writes": {
+            "counter": 300257,
+            "hz": 0,
+            "roughness": 0
+          }
+        },
+        "transactions": {
+          "committed": {
+            "counter": 655,
+            "hz": 0,
+            "roughness": 0
+          },
+          "conflicted": {
+            "counter": 6,
+            "hz": 0,
+            "roughness": 0
+          },
+          "rejected_for_queued_too_long": {
+            "counter": 0,
+            "hz": 0,
+            "roughness": 0
+          },
+          "started": {
+            "counter": 4806,
+            "hz": 5.19997,
+            "roughness": 0.935424
+          },
+          "started_batch_priority": {
+            "counter": 11,
+            "hz": 0,
+            "roughness": 0
+          },
+          "started_default_priority": {
+            "counter": 4149,
+            "hz": 2.39999,
+            "roughness": 0.5211450000000001
+          },
+          "started_immediate_priority": {
+            "counter": 646,
+            "hz": 2.79999,
+            "roughness": 1.47872
+          }
+        }
+      }
+    }
+  },
+  "finished": "2026-11-01T13:35:50.404Z",
+  "cleanup": true
+}

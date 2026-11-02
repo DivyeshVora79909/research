@@ -1,0 +1,3 @@
+# Original ReBase Next snapshot
+
+The adjacent `AGENTS.md`, `README.md`, and `CONTEXT.md` are exact snapshots from original ReBase commit `270d875a6e97b276d9cf7876a9bb4666a21d0f53`. The selected research reports and evidence preserve their original relative paths. These snapshots and reports are historical source records; relative links not included in this targeted archive may resolve only in the original ReBase checkout or in the current [Next-Base repository](https://github.com/DivyeshVora79909/Next-Base). Current application instructions, accepted checkpoints, and architecture live in Next-Base.

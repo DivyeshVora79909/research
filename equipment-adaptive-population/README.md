@@ -1,0 +1,7 @@
+# Equipment adaptive population trial
+
+This packet contains the adaptive trial source/results and the tighter Reservation witness source/results copied byte-for-byte from `/tmp`. These are exploratory caller compositions against ReBase Next developer functions and a debug native executable. The tight witness checks that at least one Reservation is feasible at or below its requested capacity; it is not a universal validity generator or a benchmark suite. Results are single-run measurements and do not establish scale or performance.
+
+`equipment-adaptive-trial.mjs` imports `z3-solver` from the original ReBase root's already installed Node modules. This is a research-only dependency and is not part of ReBase Next's runtime or tool manifests. No package install or module copy is included. The harness also uses schema faker and a historical absolute path to the application and binary. Those paths document the original execution context and need review before any reproduction.
+
+Provenance: application checkout at staging was commit `270d875a6e97b276d9cf7876a9bb4666a21d0f53`. The related population investigation records source baseline `06d9b263c81f800e1c33f2fb9fd941d7abfa7549`, source digest `a5be398364b00eab2763c4b26aa99d495a46670db3e7cb7f336e650522aaf1bf`, and unbounded binary SHA-256 `497eba3b0f88b26b44d9538e736360250f0d8be6b3fcaab39ccea599c7b55d89`. Treat that as the closest recorded project binary provenance; this small adaptive variant did not save its own independent build manifest.

@@ -1,0 +1,750 @@
+{
+  "format": "independent-research-archive-manifest-1",
+  "source_checkout": {
+    "repository": "ReBase (original)",
+    "commit": "270d875a6e97b276d9cf7876a9bb4666a21d0f53",
+    "repository_path_at_staging": "/workspace/ReBase"
+  },
+  "scope": "Three bounded exploratory packets only. No application edits, no runtime binaries, native stores, dependency trees, credentials, FoundationDB cluster files, or process log files.",
+  "excluded_manifest_from_hash_list": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "70e89f2cb5855b8f9e900cb742c7d9fc2e4e5d205bd7706fe466b3f6bb0ec1a1",
+      "bytes": 245,
+      "source_path": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5a2b8f6764663fa0371cc9b7e37dfd165f860af1105f88deb1e3ab046a25a2ec",
+      "bytes": 318,
+      "source_path": "Research@f90a773 plus archive runtime exclusions and evidence-log inclusion rules"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "93f32f4de7da01250d8dad8acf911bf4ed36d9d70fe5c1203de9824cb92ef2b6",
+      "bytes": 1257,
+      "source_path": null
+    },
+    {
+      "path": "archive/ReBase/dev-tools/fixtures/solver.js",
+      "sha256": "455cea73393030f53cc588fec6070f413ad926daf3bf2093829efa818816b49d",
+      "bytes": 1425,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:dev-tools/fixtures/solver.js"
+    },
+    {
+      "path": "archive/ReBase/LICENSE",
+      "sha256": "0919bd2382d061d8e00fc1cc3b65ed68dbc3e4d20e38f2fc6c9680acb1eb70f8",
+      "bytes": 1064,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:LICENSE"
+    },
+    {
+      "path": "archive/ReBase/package.json",
+      "sha256": "c6276b44906b575b6c874f7ec2fa64ee15b263e64464fde239b2068edfd1a168",
+      "bytes": 7041,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:package.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/AGENTS.md",
+      "sha256": "47294b20c98ab5189ec6fd0c50fc68a4c92b3bf79e9fe551e9d1f2054683a224",
+      "bytes": 10471,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/AGENTS.md"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/ARCHIVE-NOTE.md",
+      "sha256": "5e5eedea887d583c07fcab2f3e793e1706a2ffe32da0d5b46dad2a21de29afb4",
+      "bytes": 606,
+      "source_path": "authored archive note; original neighboring snapshots preserved unchanged"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/CONTEXT.md",
+      "sha256": "bd5141346ebe46eebe0565938c2b476f66a87065166e25cd58683233688a4fe4",
+      "bytes": 75703,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/CONTEXT.md"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/README.md",
+      "sha256": "39c950b39abbf0ce7235f5de732342d6c7d09ff6ce2b8598efa1d445ece52bd9",
+      "bytes": 6015,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/README.md"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/81-linked-read-study.md",
+      "sha256": "be0fe834f6583af3e05289bfe20228fc182d6999f579f08b1849c964055ee43f",
+      "bytes": 12626,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/81-linked-read-study.md"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/82-population-scaling-investigation.md",
+      "sha256": "6116b68173adf915c58c9f9358d6ded7e9d6172235ce9d43784d4f72de81e9b6",
+      "bytes": 11553,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/82-population-scaling-investigation.md"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-aggregated-results-guard-stop.gz",
+      "sha256": "f43ed429e0add74e0256510265b54bd1da1d6e9718d11b82da166841ac5e4835",
+      "bytes": 14619,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-aggregated-results-guard-stop.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-artifacts.json",
+      "sha256": "f0bc060fca47c5ae4693cbc79a778329397c59e0d74884060610b1c3c0cd6f21",
+      "bytes": 22795,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-artifacts.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-build-current.mjs.source",
+      "sha256": "9790e33750f47af2e720bd23e41c489d6b6ff23de6e6fff89c666cbe9aaf0f2a",
+      "bytes": 2998,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-build-current.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-compile-harness.mjs.source",
+      "sha256": "215553046c63b89d3244d6dfaa7ed77f6422ccd0aede750e8f32a0dbbc2f36ef",
+      "bytes": 1325,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-compile-harness.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-current-build-inputs.json",
+      "sha256": "be1c63fb546fdd5d0489c794bb88ad7bcafb0b523971c8753a74ed898b05cf9e",
+      "bytes": 18761,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-current-build-inputs.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-debug-build.mjs.source",
+      "sha256": "587f6ce28ed77f70b5582bf8f3f3e3a13da3d73a634ff4a58b7e8271b0ab6be0",
+      "bytes": 2103,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-debug-build.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-debug-pilot.rs.source",
+      "sha256": "351a6bf4987c34ede892e1a7f6bf8d3e8cf5a36af92b61a5d00073d2f30d0904",
+      "bytes": 9369,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-debug-pilot.rs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-embedded-summary.json",
+      "sha256": "45ee5d43703ef5169e8b67d782d683a2824dff701bc292b3c3db88eb455d5cd0",
+      "bytes": 46089,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-embedded-summary.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-excluded-debug-pilot-redb.gz",
+      "sha256": "dbac6902f24b2b53722aeeab4ae35958d45316548aebd5fb731ea6fd71544453",
+      "bytes": 4820,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-excluded-debug-pilot-redb.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-excluded-optimized-preflight-redb.gz",
+      "sha256": "540ebc5c41f90d76726ae3f168d01c55cbeb27e6ecf2e2c545be0a9ebcbd51bd",
+      "bytes": 5065,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-excluded-optimized-preflight-redb.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-1024-runner.mjs.source",
+      "sha256": "cb038237ce37ee63c216c35ef40ec2916ec9dde65a77dcb33f69e8eb2d14406d",
+      "bytes": 11422,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-1024-runner.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-512-partial.gz",
+      "sha256": "2ed2a871ca71bc213b03e875a09a94a631ae3d8fce7d1d442c0505ef5c37e022",
+      "bytes": 3603,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-512-partial.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-512-run-metadata.json",
+      "sha256": "dd5d051bd0101d33bf0d8b2c596189eb2cd69b126565daaf74ae1ba135d8ac29",
+      "bytes": 127250,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-512-run-metadata.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-512-stderr.log",
+      "sha256": "e415dc9647fde714b05dd6658955c64464a54a88a54a2f71e3308faab69254d7",
+      "bytes": 323,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-512-stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-runner.mjs.source",
+      "sha256": "a4e0a32f2e12e330de8f38d1510fd626cba7be363bb862bae23cdc76e228ac86",
+      "bytes": 3621,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-single-runner.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-startup-failure-metadata.json",
+      "sha256": "12ee3db3d9d190ab91da1543977640b7eedd6d4de2e2f8999934faec776e7223",
+      "bytes": 50277,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-startup-failure-metadata.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-startup-failure-stderr.log",
+      "sha256": "b86c8808d9cc282f7242b31192853fb5810d7512d79e3880845eca609b7223ab",
+      "bytes": 311,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-startup-failure-stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-startup-failure.jsonl",
+      "sha256": "822beeb0881ba15ce6298fa482349613f1bd0ecf92115d56eb3dc4ce90b8260e",
+      "bytes": 312,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-startup-failure.jsonl"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard-stop.gz",
+      "sha256": "f831b4c92b15c05955f084a99a1a6ff5ffdba6b8b1269b1e04f6e80de1e3c66c",
+      "bytes": 4583,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard-stop.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g-run.json",
+      "sha256": "07759d97b47dd81709658c22e9a964e33bd0a654e7eda454abd2631a706d7e98",
+      "bytes": 257804,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g-run.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g-runner.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g-runner.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g-runner.mjs.source",
+      "sha256": "34c7cd80188e9bebb74f79d37531eaf055668890de91e782cead484e8dc3a04b",
+      "bytes": 13159,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g-runner.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g.gz",
+      "sha256": "99d640c97a3277007ac7fa492d8cf14cee6fe2b4364ffbdcab8ef2e8ddb748ec",
+      "bytes": 6059,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-guard3g.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-run-guard-stop.json",
+      "sha256": "1bdd823d2be5ee84724e1970419dbb8cc549f7f5a407ad764403a27bace6bdaa",
+      "bytes": 131645,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-run-guard-stop.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-runner.mjs.source",
+      "sha256": "3c10de2564c4cb8f9690eaaa4ea417e500db06f0780cf6d83c2ed36d896bffc0",
+      "bytes": 12696,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-1024-runner.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-process-partial.gz",
+      "sha256": "7bbd5c68d7eb2ffca5407ad970c0668f719801744f8300bd8d3fc4a21bb80fd2",
+      "bytes": 3609,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-process-partial.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-process-stderr.log",
+      "sha256": "cafb5b65075b7d5cc54f433ab52a8a29c3bec6d5b6673b323f0bc20d2b4d67f3",
+      "bytes": 323,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-process-stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-run-metadata.json",
+      "sha256": "7a51f9d654ec323d110af9c2bfadbe8de07e30b30646bff7ea12ffd2fa45b504",
+      "bytes": 122881,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-run-metadata.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-runner.mjs.source",
+      "sha256": "1cdd4b5bf00f7d0ab9f6589e80550a6fab57f733815be101a69e8825bed51e77",
+      "bytes": 11250,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb-three-runner.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-1.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-1.stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-1.stdout.log",
+      "sha256": "77a1623a9f151c62163ee4300db4d195d1e3362f46628917f36a652055b043fb",
+      "bytes": 21,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-1.stdout.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-2.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-2.stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-2.stdout.log",
+      "sha256": "77a1623a9f151c62163ee4300db4d195d1e3362f46628917f36a652055b043fb",
+      "bytes": 21,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-2.stdout.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-3.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-3.stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-3.stdout.log",
+      "sha256": "77a1623a9f151c62163ee4300db4d195d1e3362f46628917f36a652055b043fb",
+      "bytes": 21,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-fdb3-1024-server-3.stdout.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-foundationdb-three-1024-guard3g.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-foundationdb-three-1024-guard3g.stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-harness-build-inputs.json",
+      "sha256": "5367cdbb7a3566ed86cf91daa3b2eeb8c9f3ef8c661c6edf59ee8a748a352aeb",
+      "bytes": 2949,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-harness-build-inputs.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-latency-sensitivity-final.json",
+      "sha256": "643fb2e24419a0a93b5884c688bf6ee9df9a6843093b6ec961bfb0e23ac84da9",
+      "bytes": 44041,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-latency-sensitivity-final.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-latency-sensitivity.json",
+      "sha256": "3de61f1569e396a6234b5cd7e02670b0033169de990c86d0e2d0dea9caf44357",
+      "bytes": 24671,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-latency-sensitivity.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-latency-sensitivity.mjs.source",
+      "sha256": "722960392673abb602f440fa42d85667e2f3444b775bbd5b37fcd929d4edcba2",
+      "bytes": 3222,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-latency-sensitivity.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-main.rs.source",
+      "sha256": "e2f5cc643a80223031f765ca3af8507d9a7aaa55f4fc43350c81f8d52ac6b1a4",
+      "bytes": 11093,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-main.rs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-manifest-guard-stop.json",
+      "sha256": "2422d613258d1471740f3747ab63c7c368d9b163f692a841466ff6de0a18b8e5",
+      "bytes": 6520,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-manifest-guard-stop.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-page-fdb-three-1024-guard3g.gz",
+      "sha256": "d947627d369ded421caf21657d3e3f1b8fb3a1a485f1386145804fbf1aa8c66a",
+      "bytes": 640,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-page-fdb-three-1024-guard3g.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-page-foundationdb-three-1024-guard3g.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-page-foundationdb-three-1024-guard3g.stderr.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-page-redb.gz",
+      "sha256": "605d2a41b2cbf43be196bc785c8bd38dff1aafa7da7db55ee62c21830e378d4f",
+      "bytes": 623,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-page-redb.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-page-surrealkv.gz",
+      "sha256": "814874ebd65497039f00bc6f547a9384ba75a21219113fe3d27c43e4768bab66",
+      "bytes": 632,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-page-surrealkv.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-page.rs.source",
+      "sha256": "36b808327e7ab9526fc272ea317507cece699339a62d80ec8107d8f17ebe9f69",
+      "bytes": 5062,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-page.rs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-redb.gz",
+      "sha256": "af737efafe9eceec46d1d13b7072ef0e4b932275b6f8db76f75dd0ba70c95d13",
+      "bytes": 5077,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-redb.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-linked-read-surrealkv.gz",
+      "sha256": "521d932326e20cd3229b3453e9d7d7989614b830a0b83a787f6653c460bc6ac1",
+      "bytes": 5100,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-linked-read-surrealkv.gz"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-numeric-offset-artifacts.json",
+      "sha256": "5de4927571132c3d8d70838ac42ccadc1b9ca470ac5ab5e007259ac82e60772c",
+      "bytes": 1842,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-numeric-offset-artifacts.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-connected-results.json",
+      "sha256": "aa8616d5ab5adb8d290346932feb8251bd63c68b21085fe30acb156edc1c465e",
+      "bytes": 7141,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-connected-results.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-connected-trial.mjs.source",
+      "sha256": "5c608e3f6b7c673cb3281d874bd5e4c79798e8c0c0b032497616e296fd14f159",
+      "bytes": 4654,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-connected-trial.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-large-results.json",
+      "sha256": "64ec7b70deb7ec5d1da77f251862a54f3b1c0ce9f3a1be3fea4b79be5573e126",
+      "bytes": 4784,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-large-results.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-large-trial.mjs.source",
+      "sha256": "54c9f7fe14b0b2b683aac500a7415ffadca3e38a02b3054dbb5ac6769c429d3d",
+      "bytes": 4913,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-large-trial.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-scaling-evidence.json",
+      "sha256": "1f927da614859e2a50b275bd5c9091bc153b824cee564bcf9f03e77da0d29cff",
+      "bytes": 14844,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-scaling-evidence.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-z3-results.json",
+      "sha256": "818d704be28a21fc1f499b5ed6c1239bfb87a4c79ef0f506d1d961238bad599e",
+      "bytes": 2349,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-z3-results.json"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-z3-trial.log",
+      "sha256": "67cc67af58f696996fda410a625f6437a5084f1ab1d8be253477bb3e9d225b66",
+      "bytes": 1843,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-z3-trial.log"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/2026-10-28-population-z3-trial.mjs.source",
+      "sha256": "5883e6820cabba3c449eb7ca0418a239b4aae541f1627b17027d66af3037b2c9",
+      "bytes": 5534,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/2026-10-28-population-z3-trial.mjs.source"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/2026-10-28-numeric-offset-report.md",
+      "sha256": "f8e6562386730427ab28fd499d31f69537b6e82c68a0db66aca4257226236012",
+      "bytes": 6062,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/2026-10-28-numeric-offset-report.md"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/build.sh",
+      "sha256": "ec6b154933ea39b07a5376b6d524a2967bcfb31ed11f9108bac4a92f1e09db91",
+      "bytes": 768,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/build.sh"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/embedded.jsonl",
+      "sha256": "494c8bfeb87167f25fb5c38303e710961bbc55ae4d6bd96d4ad9bc9db003e3c5",
+      "bytes": 6536,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/embedded.jsonl"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/embedded.rs",
+      "sha256": "8d0f7382366ff35254023ae8450246c64377cfa4e5f369b480a6b69bed101fd8",
+      "bytes": 5173,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/embedded.rs"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/fdb.jsonl",
+      "sha256": "c1097b913d6c9c764c9e128571c8ecbecd6a9f99095ed79823a894fe3dd1e416",
+      "bytes": 7985,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/fdb.jsonl"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/fdb.rs",
+      "sha256": "568ea0c69e853f0ad86c55d2127d2004497dbcf609d598e1431c8e209da264b0",
+      "bytes": 4012,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/fdb.rs"
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/manifest.json",
+      "source_path": "/workspace/ReBase/rebase-next/research/evidence/numeric-offset-study/manifest.json",
+      "sha256": "9dbe44709f4731289bb150b005f3a6ac65934b790129ccaf75356635f2697963",
+      "bytes": 4648
+    },
+    {
+      "path": "archive/ReBase/rebase-next/research/evidence/numeric-offset-study/run-fdb.mjs",
+      "sha256": "41a9418269f310886d3764f1d06aab75f41a4e55a98f4f2f7369db33c8920c1c",
+      "bytes": 1798,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:rebase-next/research/evidence/numeric-offset-study/run-fdb.mjs"
+    },
+    {
+      "path": "equipment-adaptive-population/equipment-adaptive-trial.mjs",
+      "sha256": "32296608b771629b4820b8a32e66d2aea530ddeb4baeb7728143782e22056e48",
+      "bytes": 8545,
+      "source_path": "/tmp/equipment-adaptive-trial.mjs"
+    },
+    {
+      "path": "equipment-adaptive-population/equipment-tight-witness.mjs",
+      "sha256": "07521044dfde0b470b91bb9bbcdcacee455f17377842f0a613f440481ec78f61",
+      "bytes": 8862,
+      "source_path": "/tmp/equipment-tight-witness.mjs"
+    },
+    {
+      "path": "equipment-adaptive-population/README.md",
+      "sha256": "42c19ab0c56cd0696539cd151d5f446da5e984bdd576f94a391faa8a3f4a3522",
+      "bytes": 1508,
+      "source_path": null
+    },
+    {
+      "path": "equipment-adaptive-population/results.json",
+      "sha256": "fcbf9ff667a7295c2e12e5a13cafaef3fda70e9f8c54dc5f57ad1d591c6f0445",
+      "bytes": 712146,
+      "source_path": "/tmp/equipment-adaptive-results.json"
+    },
+    {
+      "path": "equipment-adaptive-population/tight-witness-results.json",
+      "sha256": "b1e86216c8e039f8c3da64ea39a1f30b377e84c01eedd59c3f580f9a0562491a",
+      "bytes": 9704,
+      "source_path": "/tmp/equipment-tight-results.json"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8c3db6cdedbb9566ae7c591b85a1b53dcdbe494b4517e7ec53e7a1d458f43459",
+      "bytes": 1080,
+      "source_path": null
+    },
+    {
+      "path": "LICENSES/ReBase-MIT.txt",
+      "sha256": "0919bd2382d061d8e00fc1cc3b65ed68dbc3e4d20e38f2fc6c9680acb1eb70f8",
+      "bytes": 1064,
+      "source_path": "ReBase@270d875a6e97b276d9cf7876a9bb4666a21d0f53:LICENSE"
+    },
+    {
+      "path": "parallel-read-foundationdb/compile.mjs",
+      "sha256": "5919594afbd1e47d3c9765191eeb5bc80e78fbb314d9a9de545cca420a369f22",
+      "bytes": 1414,
+      "source_path": "/tmp/rebase-parallel-read-study/compile.mjs"
+    },
+    {
+      "path": "parallel-read-foundationdb/harness-build-inputs.json",
+      "sha256": "acd746e4542007bd78b284bd9f3932236fdd02acb6ae0815f5cf455e8136cc1e",
+      "bytes": 1479,
+      "source_path": "/tmp/rebase-parallel-read-study/harness-build-inputs.json"
+    },
+    {
+      "path": "parallel-read-foundationdb/linked-current-build-inputs.json",
+      "sha256": "be1c63fb546fdd5d0489c794bb88ad7bcafb0b523971c8753a74ed898b05cf9e",
+      "bytes": 18761,
+      "source_path": "/tmp/rebase-linked-read-study/current-build-inputs.json"
+    },
+    {
+      "path": "parallel-read-foundationdb/main.rs",
+      "sha256": "315d9a2647738481e2873f567a3da9c8bff0ba0466107a6f272924ad0a9d2507",
+      "bytes": 14673,
+      "source_path": "/tmp/rebase-parallel-read-study/main.rs"
+    },
+    {
+      "path": "parallel-read-foundationdb/ORIGINAL-README.md",
+      "sha256": "a90d8112f0c5016403474fa3224a62723dc091df1f7c86e4c6f992821b6dccab",
+      "bytes": 1987,
+      "source_path": "/tmp/rebase-parallel-read-study/README.md"
+    },
+    {
+      "path": "parallel-read-foundationdb/README.md",
+      "sha256": "b014641f5520fcb8adb3da3d73dab4fed9133e839925aecc173c563464a8895b",
+      "bytes": 2142,
+      "source_path": null
+    },
+    {
+      "path": "parallel-read-foundationdb/results.jsonl",
+      "sha256": "2ba086f11b9ec43ac8e4168fd5c264bc1a9553ee1e135661b42c3f3e4fe9ee08",
+      "bytes": 11118,
+      "source_path": "/tmp/rebase-parallel-read-study/benchmark.stdout.log"
+    },
+    {
+      "path": "parallel-read-foundationdb/run-metadata.json",
+      "sha256": "e803b0af472fa18c7dd3d49b95ac9519b410106872c969a47a87b126ee9c45a1",
+      "bytes": 183559,
+      "source_path": "/tmp/rebase-parallel-read-study/run-metadata.json"
+    },
+    {
+      "path": "parallel-read-foundationdb/run.mjs",
+      "sha256": "eba5197038f6a478da79ba46d429cd1c2147d82e3b09fd9464637d253f008446",
+      "bytes": 5375,
+      "source_path": "/tmp/rebase-parallel-read-study/run.mjs"
+    },
+    {
+      "path": "parallel-read-foundationdb/summary.json",
+      "sha256": "ac40f4559bae111d9e3efb20a5c37e9442638e62206a925b10e560623f4b3be4",
+      "bytes": 4231,
+      "source_path": "/tmp/rebase-parallel-read-study/summary.json"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3d88af4141b00b4d9cdc3cdf9d3a8a1e5212edf9bbcad74de53769910d8db4d3",
+      "bytes": 2858,
+      "source_path": "authored during archive migration; points readers to current Next-Base documentation"
+    },
+    {
+      "path": "surrealdb-3.3.5/bfs-results.json",
+      "sha256": "a276df485d9277d5f506055184d47f2e863f62a4778011bab7254ea5e9044684",
+      "bytes": 1895,
+      "source_path": "/tmp/rebase-surreal-study/bfs-results.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/bfs.mjs",
+      "sha256": "182d44c463981d799270082fb78ad86cec373a1b7dbd6959c106265304ebd189",
+      "bytes": 3587,
+      "source_path": "/tmp/rebase-surreal-study/bfs.mjs"
+    },
+    {
+      "path": "surrealdb-3.3.5/client.mjs",
+      "sha256": "df9eb594e394de678a9fc1f848831998f916bbc9ae22019f21fa6b78539b996e",
+      "bytes": 1008,
+      "source_path": "/tmp/rebase-surreal-study/client.mjs"
+    },
+    {
+      "path": "surrealdb-3.3.5/dispatch-results.json",
+      "sha256": "3833d830620ffcf3a86e40867fd4acfa3ba000c224d187921bac1a925742f3a7",
+      "bytes": 3888,
+      "source_path": "/tmp/rebase-surreal-study/dispatch-results.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/linked-results.json",
+      "sha256": "8d2d054aaed6bb38c5d9d270d831725c0cf16032b4d957cad518e2f0c7abf617",
+      "bytes": 2888,
+      "source_path": "/tmp/rebase-surreal-study/linked-results.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/linked.mjs",
+      "sha256": "2bad04599f025e3c4895683c1c369abe7200e4dee516c5198fd13756017747fd",
+      "bytes": 4033,
+      "source_path": "/tmp/rebase-surreal-study/linked.mjs"
+    },
+    {
+      "path": "surrealdb-3.3.5/load-results.json",
+      "sha256": "e730dee77128d3db07031c187033b85f8ea32dd30153fedc75030484c2c1096b",
+      "bytes": 1105,
+      "source_path": "/tmp/rebase-surreal-study/load-results.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/native.results.jsonl",
+      "sha256": "b8c7cc73eb3e3188044ebcd0b9e5fb8e677bcdd0a89890f33bf224cc999316d5",
+      "bytes": 436,
+      "source_path": "/tmp/rebase-surreal-study/native.results.jsonl"
+    },
+    {
+      "path": "surrealdb-3.3.5/native.rs",
+      "sha256": "9c0a57228c105bc7d7f251f3f8b026de65f4c839653a485df0da9a10c4fcd954",
+      "bytes": 1012,
+      "source_path": "/tmp/rebase-surreal-study/native.rs"
+    },
+    {
+      "path": "surrealdb-3.3.5/perf.mjs",
+      "sha256": "d3723d070ecba6db855c1a6c0b77df771d917cc94e2236fdbd5a530e9804473c",
+      "bytes": 6221,
+      "source_path": "/tmp/rebase-surreal-study/perf.mjs"
+    },
+    {
+      "path": "surrealdb-3.3.5/README.md",
+      "sha256": "d3ac7a42153e0c9d405580d03454d787737bac6b5aa8d42b92890b03bd4316aa",
+      "bytes": 1147,
+      "source_path": null
+    },
+    {
+      "path": "surrealdb-3.3.5/REPORT.md",
+      "sha256": "572af90852518ada62b8fb1154fda008acf2de2e4c28bce738457ea4552ca379",
+      "bytes": 5905,
+      "source_path": "/tmp/rebase-surreal-study/REPORT.md"
+    },
+    {
+      "path": "surrealdb-3.3.5/results-perf-basic.json",
+      "sha256": "84a1864095005d2c22c8f10611589a54e69c9a3a191ef98fe3e5b393ea80d9c6",
+      "bytes": 8857,
+      "source_path": "/tmp/rebase-surreal-study/results-perf-basic.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/results-perf.json",
+      "sha256": "9ca59030eca6ebe4a10164945ba490a80e609c0b74b1c5cb8e9ead41e6458eea",
+      "bytes": 10900,
+      "source_path": "/tmp/rebase-surreal-study/results-perf.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/security-results.json",
+      "sha256": "237603c3e01820c6ad699daac1f87a840a98e4ddd2c50126c598717c0ef6cb6f",
+      "bytes": 22971,
+      "source_path": "/tmp/rebase-surreal-study/security-results.json"
+    },
+    {
+      "path": "surrealdb-3.3.5/security.mjs",
+      "sha256": "709e1e1185793a50ef77eae0bb2f8ba33c1e9203b503739aee0609b17cba47a9",
+      "bytes": 5219,
+      "source_path": "/tmp/rebase-surreal-study/security.mjs"
+    },
+    {
+      "path": "surrealdb-3.3.5/server.mjs",
+      "sha256": "219e807a4b404b6c3f3e1fc270e104f2fe0d6dff6902d54b8d87c6864e73c44e",
+      "bytes": 1226,
+      "source_path": "/tmp/rebase-surreal-study/server.mjs"
+    },
+    {
+      "path": "surrealdb-3.3.5/summary.json",
+      "sha256": "19c55f14eb4c4b2614d8def4d194a2fbf3f0c1499e61edb4aed2cb66feacdaf8",
+      "bytes": 823,
+      "source_path": "/tmp/rebase-surreal-study/summary.json"
+    }
+  ],
+  "evidence_fingerprints": {
+    "parallel_read_harness_source_sha256": "315d9a2647738481e2873f567a3da9c8bff0ba0466107a6f272924ad0a9d2507",
+    "parallel_read_harness_binary_sha256": "2822e976c2530a19a5aac6bd6ff6a788153a9b90b662b143ab3f5497ad633291",
+    "parallel_read_linked_library_sha256": "f60b60e1f562a4f546b7de34a82f6b233f2b933396d13ec8285510ab4bf162e7",
+    "population_baseline_commit": "06d9b263c81f800e1c33f2fb9fd941d7abfa7549",
+    "population_source_digest": "a5be398364b00eab2763c4b26aa99d495a46670db3e7cb7f336e650522aaf1bf",
+    "population_debug_binary_sha256": "497eba3b0f88b26b44d9538e736360250f0d8be6b3fcaab39ccea599c7b55d89"
+  },
+  "packets": [
+    {
+      "path": "surrealdb-3.3.5",
+      "source": "/tmp/rebase-surreal-study",
+      "source_reference": "https://github.com/surrealdb/surrealdb/tree/v3.3.5",
+      "scope": "localhost in-memory permission, API transaction, dispatch, linked/BFS, and short load observations; synthetic and bounded"
+    },
+    {
+      "path": "parallel-read-foundationdb",
+      "source": "/tmp/rebase-parallel-read-study",
+      "source_reference": "parent-verified linked study baseline 1560ba1; current app checkout commit recorded above",
+      "scope": "warm 100000-member native read comparison; three local processes on one host/DC/region"
+    },
+    {
+      "path": "equipment-adaptive-population",
+      "source": "/tmp/equipment-adaptive-trial.mjs and related /tmp/equipment-tight-witness.mjs",
+      "source_reference": "original ReBase z3-solver import is research-only",
+      "scope": "small adaptive Equipment trial and tight Reservation witness; exploratory; no solver API or universal validity claim"
+    }
+  ],
+  "destination": {
+    "repository": "Research",
+    "url": "https://github.com/DivyeshVora79909/Research",
+    "initial_commit": "f90a7731d487d0db215604d4200f9b55d562e87f"
+  },
+  "related_application": {
+    "repository": "Next-Base",
+    "url": "https://github.com/DivyeshVora79909/Next-Base",
+    "initial_commit": "6665744aff55b4603df1883087b1241065064ba6",
+    "relationship": "current application architecture and checkpoints remain there; no runtime or package dependency"
+  },
+  "archive_boundary": {
+    "original_checkpoint_reports": "01–80 remain with Next-Base; reports 81–82 and selected evidence are preserved under archive/ReBase/rebase-next/research/",
+    "preserved_app_root_snapshots": [
+      "rebase-next/AGENTS.md",
+      "rebase-next/README.md",
+      "rebase-next/CONTEXT.md"
+    ],
+    "original_source_paths_removed_from_app_later": 68
+  },
+  "original_rebase_sources": {
+    "source_commit": "270d875a6e97b276d9cf7876a9bb4666a21d0f53",
+    "source_file_count": 74,
+    "source_hashes": "Each archived ReBase file SHA-256 equals the exact tracked Git object at source_commit; see file records."
+  },
+  "manifest_exclusion": "Only the root manifest.json excludes itself; nested historical manifests are hashed."
+}

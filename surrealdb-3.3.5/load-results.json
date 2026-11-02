@@ -1,0 +1,45 @@
+{
+  "scope": "3second windows, warm localhost memory, Node client and database samehost, bearerrootJWT, not production capacity",
+  "cases": [
+    {
+      "size": 0,
+      "concurrency": 1,
+      "requests": 6718,
+      "errors": 0,
+      "elapsed_ms": 3000.302114,
+      "rps": 2239.1078447241994,
+      "median_ms": 0.4026289999999335,
+      "p95_ms": 0.6078289999999811
+    },
+    {
+      "size": 0,
+      "concurrency": 8,
+      "requests": 17027,
+      "errors": 0,
+      "elapsed_ms": 3000.441456,
+      "rps": 5674.831603846497,
+      "median_ms": 1.1765470000000278,
+      "p95_ms": 2.422447999999349
+    },
+    {
+      "size": 100,
+      "concurrency": 1,
+      "requests": 2619,
+      "errors": 0,
+      "elapsed_ms": 3000.5200160000004,
+      "rps": 872.848701569868,
+      "median_ms": 1.0817339999994147,
+      "p95_ms": 1.30143500000122
+    },
+    {
+      "size": 100,
+      "concurrency": 8,
+      "requests": 6284,
+      "errors": 0,
+      "elapsed_ms": 3002.582554999999,
+      "rps": 2092.865020325811,
+      "median_ms": 3.2225330000001122,
+      "p95_ms": 8.074571000001015
+    }
+  ]
+}

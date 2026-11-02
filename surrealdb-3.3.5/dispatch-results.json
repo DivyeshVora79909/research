@@ -1,0 +1,165 @@
+{
+  "version": "3.3.5",
+  "scope": "warm memory localhost HTTP JWT; equal array-len operation; includes JSON/SurrealQL parsing, binding and transport, not pure parser isolate",
+  "cases": [
+    {
+      "n": 100,
+      "method": "inline_query",
+      "median_ms": 1.1843350000000044,
+      "min_ms": 0.9143940000000015,
+      "max_ms": 3.574043000000003,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 100,
+      "method": "bound_query",
+      "median_ms": 0.897958999999986,
+      "min_ms": 0.6584140000000076,
+      "max_ms": 1.0426990000000274,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 100,
+      "method": "run",
+      "median_ms": 0.7796889999999905,
+      "min_ms": 0.6321030000000007,
+      "max_ms": 1.209543999999994,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 1000,
+      "method": "inline_query",
+      "median_ms": 1.00236799999999,
+      "min_ms": 0.8992409999999893,
+      "max_ms": 1.1536289999999951,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 1000,
+      "method": "bound_query",
+      "median_ms": 0.9141840000000059,
+      "min_ms": 0.7212190000000192,
+      "max_ms": 1.0398050000000012,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 1000,
+      "method": "run",
+      "median_ms": 0.8325189999999907,
+      "min_ms": 0.7534980000000076,
+      "max_ms": 1.3245990000000063,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 10000,
+      "method": "inline_query",
+      "median_ms": 3.4258719999999983,
+      "min_ms": 3.28495700000002,
+      "max_ms": 5.204532999999998,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 10000,
+      "method": "bound_query",
+      "median_ms": 2.2943970000000036,
+      "min_ms": 1.9110430000000065,
+      "max_ms": 2.7196050000000014,
+      "samples": 15,
+      "checked": true
+    },
+    {
+      "n": 10000,
+      "method": "run",
+      "median_ms": 2.600594000000001,
+      "min_ms": 2.4736310000000117,
+      "max_ms": 2.9721399999999676,
+      "samples": 15,
+      "checked": true
+    }
+  ],
+  "flexibility": [
+    {
+      "query": "LET $f = |$x| $x + 1; RETURN $f(41);",
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": null,
+            "status": "OK",
+            "time": "38.439µs",
+            "type": null
+          },
+          {
+            "result": 42,
+            "status": "OK",
+            "time": "54.714µs",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "query": "RETURN fn::apply(|$x| $x+1,41);",
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": 42,
+            "status": "OK",
+            "time": "90.398µs",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "query": "LET $name='fn::add'; RETURN $name(20,22);",
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "result": null,
+            "status": "OK",
+            "time": "22.144µs",
+            "type": null
+          },
+          {
+            "kind": "Internal",
+            "result": "There was a problem running the ANONYMOUS() function. 'string' is not a function",
+            "status": "ERR",
+            "time": "26.881µs",
+            "type": null
+          }
+        ]
+      }
+    },
+    {
+      "query": "RETURN eval::surql('RETURN 42;');",
+      "response": {
+        "status": 200,
+        "value": [
+          {
+            "details": {
+              "details": {
+                "name": "eval::surql"
+              },
+              "kind": "Function"
+            },
+            "kind": "NotAllowed",
+            "result": "Function 'eval::surql' is not allowed to be executed",
+            "status": "ERR",
+            "time": "37.447µs",
+            "type": null
+          }
+        ]
+      }
+    }
+  ]
+}

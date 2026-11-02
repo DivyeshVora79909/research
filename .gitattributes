@@ -1,0 +1,10 @@
+* text=auto
+*.json diff=json
+*.jsonl -diff
+*.bin binary
+*.rlib binary
+# Imported research payloads retain their original bytes.
+archive/** -text
+surrealdb-3.3.5/** -text
+parallel-read-foundationdb/** -text
+equipment-adaptive-population/** -text

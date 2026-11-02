@@ -1,0 +1,3 @@
+{"n":100,"iterationsPerSample":100000,"samples":15,"medianMs":0.0000479834,"minMs":0.000047119999999999996,"maxMs":0.000060049650000000005,"correct":true}
+{"n":1000,"iterationsPerSample":10000,"samples":15,"medianMs":0.0005557041000000001,"minMs":0.0005480496,"maxMs":0.0005736310999999999,"correct":true}
+{"n":10000,"iterationsPerSample":1000,"samples":15,"medianMs":0.005643631,"minMs":0.005498262,"maxMs":0.005771694,"correct":true}

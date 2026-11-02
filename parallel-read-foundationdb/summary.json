@@ -1,0 +1,159 @@
+{
+  "scope": "Research prototype; warm native reads of 100000-member fixture; three FoundationDB7.3.77 processes on one host/DC/region, triple SSD. No HTTP/auth, writes, mixed load, cross-host or WAN benchmark; no production code edits.",
+  "fixture": {
+    "batch_limit": 64,
+    "fixture_rows_verified": 200001,
+    "n": 100000,
+    "namespace": "parallel-read-100000"
+  },
+  "caseCount": 12,
+  "timedSampleCount": 60,
+  "checkedOperations": 72,
+  "prediction": "Parallel local median + (actual awaited native catalog/data batches + 2 selected control stages) * added batch completion latency. 1ms and5ms are assumptions, not bounds or measured RTTs.",
+  "results": [
+    {
+      "q": 50,
+      "existing_ms": 18.359772,
+      "raw_sequential_ms": 11.809002,
+      "parallel_ms": 4.829474,
+      "speedup": 3.8016090365120507,
+      "cpu_existing_ms": 13.316251,
+      "cpu_parallel_ms": 3.795311,
+      "batches": 20,
+      "predicted_1ms_added_ms": 26.829474,
+      "predicted_5ms_added_ms": 114.829474,
+      "parallel_value_bytes": 73454,
+      "parallel_memory_samples": [
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ]
+      ]
+    },
+    {
+      "q": 100,
+      "existing_ms": 33.300207,
+      "raw_sequential_ms": 24.855321,
+      "parallel_ms": 6.534221,
+      "speedup": 5.096278041406925,
+      "cpu_existing_ms": 25.157244,
+      "cpu_parallel_ms": 4.745939,
+      "batches": 21,
+      "predicted_1ms_added_ms": 29.534221,
+      "predicted_5ms_added_ms": 121.534221,
+      "parallel_value_bytes": 123585,
+      "parallel_memory_samples": [
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ],
+        [
+          "VmHWM:\t  265016 kB",
+          "VmRSS:\t  265016 kB"
+        ]
+      ]
+    },
+    {
+      "q": 1000,
+      "existing_ms": 341.527354,
+      "raw_sequential_ms": 293.521519,
+      "parallel_ms": 54.425188,
+      "speedup": 6.275170863902207,
+      "cpu_existing_ms": 242.117823,
+      "cpu_parallel_ms": 43.275675,
+      "batches": 48,
+      "predicted_1ms_added_ms": 104.42518799999999,
+      "predicted_5ms_added_ms": 304.425188,
+      "parallel_value_bytes": 1035397,
+      "parallel_memory_samples": [
+        [
+          "VmHWM:\t  270500 kB",
+          "VmRSS:\t  270500 kB"
+        ],
+        [
+          "VmHWM:\t  270500 kB",
+          "VmRSS:\t  270500 kB"
+        ],
+        [
+          "VmHWM:\t  270500 kB",
+          "VmRSS:\t  270500 kB"
+        ],
+        [
+          "VmHWM:\t  270500 kB",
+          "VmRSS:\t  270500 kB"
+        ],
+        [
+          "VmHWM:\t  270500 kB",
+          "VmRSS:\t  270500 kB"
+        ]
+      ]
+    },
+    {
+      "q": 10000,
+      "existing_ms": 3570.438134,
+      "raw_sequential_ms": 3054.358138,
+      "parallel_ms": 587.906259,
+      "speedup": 6.0731418986304755,
+      "cpu_existing_ms": 2608.13237,
+      "cpu_parallel_ms": 445.663896,
+      "batches": 327,
+      "predicted_1ms_added_ms": 916.906259,
+      "predicted_5ms_added_ms": 2232.906259,
+      "parallel_value_bytes": 10257880,
+      "parallel_memory_samples": [
+        [
+          "VmHWM:\t  341528 kB",
+          "VmRSS:\t  341528 kB"
+        ],
+        [
+          "VmHWM:\t  341528 kB",
+          "VmRSS:\t  341528 kB"
+        ],
+        [
+          "VmHWM:\t  341528 kB",
+          "VmRSS:\t  341528 kB"
+        ],
+        [
+          "VmHWM:\t  341528 kB",
+          "VmRSS:\t  341528 kB"
+        ],
+        [
+          "VmHWM:\t  341528 kB",
+          "VmRSS:\t  341528 kB"
+        ]
+      ]
+    }
+  ],
+  "healthyBefore": true,
+  "healthyAfter": true,
+  "cleanup": true,
+  "peakClusterRSSBytes": 1845088256
+}

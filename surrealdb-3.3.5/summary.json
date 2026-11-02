@@ -1,0 +1,32 @@
+{
+  "version": "3.3.5",
+  "scope": "Isolated localhost SurrealDB in-memory server; warm reads; root bearer performance paths; unoptimized synthetic SurrealQL prototype functions; no production code modified, persistent or distributed testing, full reactive engine or AVL mutations.",
+  "security": {
+    "witnesses": 39,
+    "passed": 36,
+    "failed": [
+      "api_throw_rollback",
+      "http_api_throw_rollback",
+      "http_api_function_throw_rollback"
+    ]
+  },
+  "timedSqlCases": 20,
+  "additionalCases": {
+    "linked": 6,
+    "bfs": 3,
+    "dispatch": 9
+  },
+  "load": {
+    "requests": 32648,
+    "errors": 0,
+    "windowsMs": 3000
+  },
+  "files": [
+    "security-results.json",
+    "results-perf.json",
+    "linked-results.json",
+    "bfs-results.json",
+    "dispatch-results.json",
+    "load-results.json"
+  ]
+}

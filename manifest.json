@@ -5,7 +5,7 @@
     "commit": "270d875a6e97b276d9cf7876a9bb4666a21d0f53",
     "repository_path_at_staging": "/workspace/ReBase"
   },
-  "scope": "Three bounded exploratory packets only. No application edits, no runtime binaries, native stores, dependency trees, credentials, FoundationDB cluster files, or process log files.",
+  "scope": "Three bounded exploratory packets and dated research/design notes. No application edits, runtime binaries, native stores, dependency trees, credentials, FoundationDB cluster files, or process log files.",
   "excluded_manifest_from_hash_list": true,
   "files": [
     {
@@ -22,8 +22,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "93f32f4de7da01250d8dad8acf911bf4ed36d9d70fe5c1203de9824cb92ef2b6",
-      "bytes": 1257,
+      "sha256": "87ca96f2ee4e70cf088712e82a633f7d9281802caf0a1f6093025b0360c837eb",
+      "bytes": 1547,
       "source_path": null
     },
     {
@@ -580,8 +580,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "3d88af4141b00b4d9cdc3cdf9d3a8a1e5212edf9bbcad74de53769910d8db4d3",
-      "bytes": 2858,
+      "sha256": "be0170f354912755eadfc9cc73de7eeec91a69b626c1e967ba1cafeac09fd27c",
+      "bytes": 3188,
       "source_path": "authored during archive migration; points readers to current Next-Base documentation"
     },
     {
@@ -691,6 +691,12 @@
       "sha256": "19c55f14eb4c4b2614d8def4d194a2fbf3f0c1499e61edb4aed2cb66feacdaf8",
       "bytes": 823,
       "source_path": "/tmp/rebase-surreal-study/summary.json"
+    },
+    {
+      "path": "notes/2026-11-06-ordered-index-context.md",
+      "sha256": "ba392bd2e969a723177a83a19a8d95f2d191508f7050fff8a8525bcfce7638ca",
+      "bytes": 8499,
+      "source_path": "Authored 2026-11-06: user discussion, standard augmented-tree results and linked original research evidence; no new measurements."
     }
   ],
   "evidence_fingerprints": {

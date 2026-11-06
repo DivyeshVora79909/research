@@ -4,6 +4,7 @@ This repository preserves independent exploratory research that informed ReBase 
 
 ## Archive layout
 
+- [`notes/2026-11-06-ordered-index-context.md`](notes/2026-11-06-ordered-index-context.md) is a compact agent reference for augmented-AVL work/span bounds, rank/key range reads, interval-stabbing distinctions and the proposed field-driven index forest. It is design context, not an application redesign or new benchmark evidence.
 - `surrealdb-3.3.5/`, `parallel-read-foundationdb/`, and `equipment-adaptive-population/` contain three bounded research packets staged from isolated experiment directories. Their README files record scope, provenance, and limitations.
 - `archive/ReBase/rebase-next/` preserves the original tracked ReBase Next research reports 81 and 82, their selected source/evidence files, and a snapshot of the original `AGENTS.md`, `README.md`, and `CONTEXT.md`. The reports and snapshots are byte-for-byte from original commit `270d875a6e97b276d9cf7876a9bb4666a21d0f53`. Some historical Markdown links point to material outside this targeted archive; `archive/ReBase/rebase-next/ARCHIVE-NOTE.md` explains this boundary.
 - `archive/ReBase/package.json`, `archive/ReBase/dev-tools/fixtures/solver.js`, and `archive/ReBase/LICENSE` preserve the original ReBase context used by report 82's relative links. The ReBase license is also preserved as `LICENSES/ReBase-MIT.txt`; this repository's existing `LICENSE` remains its own.
